@@ -1,0 +1,54 @@
+.Lettre1{
+    color: #57C9EA;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+.titre{
+    color: #050727;
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: #050727;
+    
+
+}
+.Apropos-title{
+    text-align: center;
+    text-decoration: underline 3px #050727 ;
+}
+.Apropos-container{
+    margin-top: 70px;
+    height: 70vh;
+    width: 100%;
+    display: grid;
+    background-color: #050727;
+    grid-template-columns: 1fr 1fr;
+}
+img{
+    width: 100%;
+    height: 70vh;
+}
+.Apropos-text{
+    margin: 25px;
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+#title{
+    color: #57C9EA;
+}
+.vid-btn{
+    margin-top: 30px;
+    width: max-content;  
+    background-color: var(--color-bg-variant);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: right;
+}
