@@ -1,0 +1,33 @@
+#cadre{
+    border: 2px solid ;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    max-width: 100vh;
+    margin:1vh;
+}
+#author{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1vh;
+    font-size: 2vh;
+}
+#firstColumn{
+    padding: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#noun{
+    margin-right: 10%;
+    font-size: 2vh;
+    font-weight: bold;
+}
+#title{
+    margin-left: 27%;
+    font-family: lato;
+    font-weight: bold;
+    font-size: 3vh;
+    
+}
