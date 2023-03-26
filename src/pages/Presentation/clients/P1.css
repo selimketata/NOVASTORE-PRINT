@@ -108,7 +108,25 @@ hr.light {
 .circle:active {
   transform: translate(10rem, 0);
 }
-.dot {
+.dot1 {
+    height: 0.75rem;
+    width: 0.75rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+  }
+  .dot2 {
+    height: 0.75rem;
+    width: 0.75rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+  }
+  .dot3 {
     height: 0.75rem;
     width: 0.75rem;
     background-color: #bbb;
@@ -131,6 +149,9 @@ hr.light {
     flex-direction:row;
     justify-content: space-between;
     margin-top: 5vh;
+}
+.dot1:hover{
+    color: red;
 }
   
 
