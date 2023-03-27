@@ -1,64 +1,77 @@
 .service-container{
-  width: 100%;
-}
-.service-container h1{
-    color: black;
-    margin-left: 20px;
-    margin-bottom: 5px; 
-    margin-top: 30px;
-
-}
-.service-container span {
-    color: aqua;
-}
- hr {
-    
-        width: 40%;
-        margin: 0;
-        border: 2px solid black;
-      
-    
-}
-.part{
-    margin: 20px;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    gap: 10px;
-    border: 3px solid rgb(132, 198, 218);
-}
-.back-img {
-    background-Size: cover;
-    background-Position: center;
-     width: 30%;
-    height: 500px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    
-}
-.back-img::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.3);
-  }
-.back-img img{
-    width: 150px;
-    height: 150px;
-
-}
-
-.back-img p {
-  
-    color: white;
-    font-weight: 500;
-    font-size: 2.5rem;
     
-}
+  }
+  .service-container h1{
+      color: black;
+      margin-left: 20px;
+      margin-bottom: 5px; 
+      margin-top: 30px;
+  
+  }
+  .service-container span {
+      color: aqua;
+  }
+   hr {
+      
+          width: 40%;
+          margin: 0;
+          border: 2px solid black;
+        
+      
+  }
+  .part{
+      margin: 20px;
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      gap: 10px;
+      border: 3px solid rgb(132, 198, 218);
+  }
+  .back-img {
+      background-Size: cover;
+      background-Position: center;
+       width: 30%;
+       height: 500px; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative; 
+  }
+  .back-img::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.3);
+  } 
+  
+  .back-img img{
+      width: 30%;
+      height: 25%;
+  
+  }
+  .back-img img , 
+  .back-img p{
+    transform: scale(1);
+    transition: 0.3 ease-in-out;
+
+  }
+
+  .back-img:hover img, 
+  .back-img:hover p{
+    transform: scale(1.4);
+  }
+  
+  .back-img p {
+    
+      color: white;
+      font-weight: 500;
+      font-size: 2rem;
+      
+  }
+
 

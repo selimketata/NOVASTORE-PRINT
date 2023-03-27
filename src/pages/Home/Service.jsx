@@ -1,6 +1,5 @@
-import React from "react";
-import "./Service.css";
-import Row from "../../components/Row";
+import React,{useState} from "react";
+import "./service.css";
 import Abri2 from "../../assets/abri2.png";
 import imp2 from "../../assets/imp2.png";
 import plv2 from "../../assets/plv2.png";
@@ -9,12 +8,15 @@ import Img2 from "../../assets/Img2.png";
 import Img3 from "../../assets/Img3.png";
 
 function Service() {
+  const [hover, setHover] = useState(false);
+
+   const handleMouseEnter = () => setHover(true);
+   const handleMouseLeave = () => setHover(false);
   return (
    <div className="service-container"> 
      <h1> <span>NOS</span> services </h1>
     <hr />
    <div className="part">
-   
       <div className="back-img" style={{backgroundImage:`url(${Img2}`}}>
        <img src={Abri2} alt="FGHJK" />
        <p>Store & Abri</p>
