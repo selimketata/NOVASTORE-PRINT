@@ -86,28 +86,18 @@ hr.light {
     margin-top: .8rem;
     margin-bottom: .1rem ;
 }
-.root{
-    text-align: center;
-    color: gray;
-    margin-top: 2%;
+.dot2:hover {
+  transform: scale(1.3);
+  background-color: gray;
 }
-
-.circle {
-  width: 10%;
-  height: 10%;
-  border-radius: 50%;
-  background-color: blue;
-  cursor: pointer;
-  transition: transform 0.3s ease-in-out;
-}
-
-.circle:hover {
-  transform: scale(1.1);
-}
-
-.circle:active {
-  transform: translate(10rem, 0);
-}
+.dot1:hover {
+    transform: scale(1.3);
+    background-color: gray;
+  }
+  .dot3:hover {
+    transform: scale(1.3);
+    background-color: gray;
+  }
 .dot1 {
     height: 0.75rem;
     width: 0.75rem;
@@ -150,10 +140,7 @@ hr.light {
     justify-content: space-between;
     margin-top: 5vh;
 }
-.dot1:hover{
-    color: red;
-}
-  
+
 
 
 
