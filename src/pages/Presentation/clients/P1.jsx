@@ -8,16 +8,33 @@ import im4 from './pic.png'
 import im9 from './pic3.png' 
 import im7 from './pic2.png'
 import { useState } from 'react'
-
 export function P1() {
   const [currentpage, setCurrentpage] = useState(1)
- 
+  const [showBox, setShowBox] = useState(1);
+  const [showBox1, setShowBox1] = useState(1);
+  const handleClick=()=>{
+    if(showBox==1){
+      setShowBox(2)
+      }
+      else if (showBox===2){
+        setShowBox1(3)
+       }
+      else {
+        setShowBox(1)    
+        } 
+    }
+  
 const handleDotClick = () => {
     if(currentpage==1){
-    setCurrentpage(2)}
+    setCurrentpage(2)
+   
+    }
     else if (currentpage===2){
-      setCurrentpage(3)}
-    else setCurrentpage(1)  
+      setCurrentpage(3)
+     }
+    else {setCurrentpage(1)
+     
+      } 
   }
 
   if (currentpage==1) {
@@ -55,7 +72,7 @@ const handleDotClick = () => {
         </div>
         <div className='circles'>
           <span className='dot1'></span>
-          <span className='dot2'onClick={handleDotClick} ></span>
+          <span className='dot2'onClick={()=>{handleDotClick(); handleClick()}} ></span>
           <span className='dot3'onClick={()=>{setCurrentpage(3)}}></span>
         </div>
       </div>
@@ -65,13 +82,13 @@ const handleDotClick = () => {
       <div className="av1">
         <h1>Ce que les clients disent de nous</h1>
         <hr className='light'/>
-      <div className='container'>
+      <div className={`box ${showBox===2 ? "show" :""}`}>
       <div className='child1'>
         <div className='appostrophe'><img width={90} src ={im3} /></div>
         <div className='text'> <p id='avis'> Je recommande fortement ce site à tous ceux 
         qui recherchent un service fiable et de qualité.</p></div>
         <div className='imname1'>
-        <div className='im'><img width={90} src ={im5} /></div>
+        <div className='im'><img width={80}  src ={im5} /></div>
           <div className='name'><p id='nom'>Nouha.O</p>
           <p id='p'><strong>- Constantine Constantinople -</strong> </p></div>
           
@@ -91,7 +108,7 @@ const handleDotClick = () => {
      <div className='circles'>
     <span className='dot1' onClick={()=>{setCurrentpage(1)}}></span>
     <span className='dot2'></span>
-    <span className='dot3'onClick={handleDotClick}></span>
+    <span className='dot3'onClick={()=>{handleDotClick() ; handleClick()}}></span>
     </div>
     </div>
   )}
@@ -100,7 +117,7 @@ const handleDotClick = () => {
       <div className="av1">
         <h1>Ce que les clients disent de nous</h1>
         <hr className='light'/>
-      <div className='container'>
+      <div className={`box ${showBox1===3 ? "show1" : ""}`}>
       <div className='child1'>
         <div className='appostrophe'><img width={70} src ={im3} /></div>
         <div className='text'> <p id='avis'> Je recommande fortement ce site à tous ceux 
@@ -124,10 +141,11 @@ const handleDotClick = () => {
 
     </div>
      <div className='circles'>
-    <span className='dot1' onClick={handleDotClick } ></span>
-    <span className='dot2' onClick={()=>{setCurrentpage(2)}}></span>
+    <span className='dot1' onClick={()=>{handleDotClick() ;handleClick()}} ></span>
+    <span className='dot2' onClick={()=>{setCurrentpage(2)
+    }}></span>
     <span className='dot3'></span>
     </div>
     </div>
   )}
-  }
+}
