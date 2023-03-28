@@ -1,0 +1,28 @@
+
+.Partenaires-title{    
+    margin-left: 75%;
+}
+#trait{
+    width: 100%;
+    border: 0.1em solid black;
+}
+.container{
+    height: 60vh;
+    margin: 0;
+    background-color: var(--color-bg);
+  }
+  img{
+    height: 10em;
+    width: 15em;
+  }
+  .Partners-container{
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+  }
+  .icon{
+    color: var(--color-light);
+    cursor: pointer;
+  }

@@ -2,7 +2,7 @@ import Home from "./pages/Home/Home";
 import Contacts from "./pages/Contacts/Contacts";
 import Presentation from "./pages/Presentation/Presentation";
 import Services from "./pages/Services/Services";
-import NavBar from "./components/Navbar";
+import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer";
 
 
