@@ -1,9 +1,9 @@
 import React from "react";
 import "./Services.css";
 import {Box} from "@mui/material"
-import Card1 from "./services-components/card1";
-import Card2 from "./services-components/card2";
-import Card3 from "./services-components/card3";
+import Card1 from "./components/card1";
+import Card2 from "./components/card2";
+import Card3 from "./components/card3";
 function Services() {
   return(
     <Box>
