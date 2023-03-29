@@ -1,0 +1,18 @@
+.chiffre{
+    background: linear-gradient(rgb(85, 190, 247) 60%,white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 8em;
+}
+#divi{
+  height:80vh;
+}
+#diviAnime{
+  height:300vh;
+}
+.chiffreAnime{
+  background: linear-gradient(rgb(197, 42, 171) 60%,white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 8em;
+}

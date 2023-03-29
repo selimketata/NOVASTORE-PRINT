@@ -20,7 +20,7 @@ function Cadre(){
                         </div>
 
 
-                    <img id="image" src="" alt="a parrot"  height="300px" />
+                    <img id="image" src="../parrot.jpg" alt="a parrot" />
             
         </div>
     )

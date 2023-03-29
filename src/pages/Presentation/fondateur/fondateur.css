@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Lato-Black;
+    src: url(./Lato-Black.ttf);
+  }
 #cadre{
     border: 2px solid ;
     display: flex;
@@ -26,8 +30,11 @@
 }
 #title{
     margin-left: 27%;
-    font-family: lato;
-    font-weight: bold;
+    font-family: Lato-Black;
     font-size: 3vh;
     
+}
+#image{
+    height:auto;
+    width:30vw;
 }
