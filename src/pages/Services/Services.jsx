@@ -9,11 +9,11 @@ import Footer from"../../components/Footer"
 function Services() {
   return(
     <Box>
-    <Navbar></Navbar>
+    
     <Card1></Card1>
     <Card2></Card2>
     <Card3></Card3>
-    <Footer></Footer>
+    
     </Box>
       )
 
