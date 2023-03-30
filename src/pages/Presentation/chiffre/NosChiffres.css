@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Lato-Black;
+    src: url(./Lato-Black.ttf);
+  }
+  @font-face {
+    font-family: Lato-Bold;
+    src: url(./Lato-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: Lato-Light;
+    src: url(./Lato-Light.ttf);
+  }
+
+.separation{
+    border-right: 1px solid black;
+    height:fit-content;
+    padding-right: 8vh;
+}
+#chiffres{
+    display: flex;
+    flex-direction:row;
+    gap:4vw;
+}
+#content{
+    display:flex;
+    flex-direction:column ;
+    /*align-items: center;*/
+    gap:4vh;
+    
+}
+#titleChiffre{
+    font-family: Lato-Black;
+    font-size: 2em;
+}
+#bolderText{
+    font-size:larger;
+    font-family: Lato-Bold;
+}
+#lighterText{
+    font-family: Lato-Light;
+}

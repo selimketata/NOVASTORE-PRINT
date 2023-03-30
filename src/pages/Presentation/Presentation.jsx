@@ -3,12 +3,12 @@ import Cadre from "./fondateur/fondateur"
 import "./Presentation.css";
 
 
-import Chiffre from "./chiffre/chiffre"
+import NosChiffre from "./chiffre/NosChiffre"
 import "./chiffre/chiffre.css";
 
 function Presenation() {
   return <div>
-    <Chiffre />
+    <NosChiffre />
     <Cadre />
     
   </div>;

@@ -1,18 +1,25 @@
+@font-face {
+  font-family: Lato-BoldItalic;
+  src: url(./Lato-BoldItalic.ttf);
+}
 .chiffre{
     background: linear-gradient(rgb(85, 190, 247) 60%,white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     font-size: 8em;
 }
-#divi{
-  height:80vh;
+#content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-#diviAnime{
-  height:300vh;
-}
+
 .chiffreAnime{
   background: linear-gradient(rgb(197, 42, 171) 60%,white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     font-size: 8em;
+}
+#label{
+  font-family: Lato-BoldItalic;
 }
