@@ -9,8 +9,8 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <>
-      <NavBar />
-      <BrowserRouter>
+      {/* <NavBar /> */}
+   
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contacts" element={<Contacts />} />
@@ -18,7 +18,7 @@ function App() {
           <Route path="/presentation" element={<Presentation />} />
           <Route path="*" element={<div>404 not found</div>} />
         </Routes>
-      </BrowserRouter>
+    
       <Footer />
     </>
   );
