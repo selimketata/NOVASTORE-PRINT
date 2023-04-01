@@ -22,7 +22,7 @@ function NavBar() {
           <a href="#Contact">Contact</a>
         </div>
         
-         <button className="Nav-btn" onClick={()=>setIsMobile=(!isMobile)}><DehazeIcon/></button>
+         <button className="Nav-btn" onClick={()=>setIsMobile(!isMobile)}><DehazeIcon/></button>
         
       
     </nav>

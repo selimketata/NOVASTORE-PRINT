@@ -16,13 +16,19 @@
     width: 15em;
   }
   .Partners-container{
-    margin-top: 3em;
+    
+    margin-top: 5em;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10em;
+    gap: 14em;
+    overflow: hidden;
   }
   .icon{
     color: var(--color-light);
     cursor: pointer;
+  }
+  button{
+    border: none;
+    background-color: var(--color-bg);
   }

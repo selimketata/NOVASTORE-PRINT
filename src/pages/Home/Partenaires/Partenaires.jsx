@@ -6,12 +6,13 @@ import img3 from './img3.jpg'
 import { useState } from 'react'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import img4 from './img4.jpg'
-import { Images } from './Images'
+import {motion} from "framer-motion"
+import Images from './Images'
 export const Partenaires = () => {
-  const [numimage,setNumImage]=useState(1)
+  const [numimage,setNumImage]=useState(img1)
   const handleChange= (e,I) => {
-    setNumImage(numimage+1)
+    
+    setNumImage({img2})
   }
   return (
     <div className='container'>
@@ -20,13 +21,13 @@ export const Partenaires = () => {
            <span className='titre'>Partenaires</span>
            <hr id='trait' />
         </div>
-        <div className='Partners-container'> 
-         <ArrowBackIcon className='icon' image={numimage} onClick={handleChange} />  
-          <img src={img1} alt="" />
-          <img src={img2} alt="" />
-          <img src={img3} alt="" />
-          <ArrowForwardIcon className='icon' image={numimage}  onClick={handleChange} /> 
-        </div>
+        <motion.div className='Partners-container' drag="x"> 
+          {/* <button onClick={handleChange}><ArrowBackIcon className='icon' image={numimage} /></button>  */}
+              {Images.map((image)=>(
+                <img src={image} ></img>
+              ))}     
+         {/* <button  onClick={handleChange}><ArrowForwardIcon className='icon' image={numimage}  /> </button>  */}
+        </motion.div>
     </div>
   )
 }
