@@ -53,6 +53,7 @@ function Footer() {
           <div className="email">
           <input type="email"  placeholder="Entrez votre adresse email"/>
           <button><RiArrowRightSLine/></button>
+          <hr />
           </div>
         </div>
       
