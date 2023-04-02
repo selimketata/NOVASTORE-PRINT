@@ -2,11 +2,17 @@
   font-family: Lato-BoldItalic;
   src: url(./Lato-BoldItalic.ttf);
 }
+@font-face {
+  font-family: Lato-Black;
+  src: url(./Lato-Black.ttf);
+}
+
 .chiffre{
     background: linear-gradient(rgb(85, 190, 247) 60%,white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-    font-size: 8em;
+    font-size: 4vw;
+    font-family: Lato-Black;
 }
 #content{
   display: flex;
@@ -14,12 +20,9 @@
   flex-direction: column;
 }
 
-.chiffreAnime{
-  background: linear-gradient(rgb(197, 42, 171) 60%,white);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-    font-size: 8em;
-}
+
 #label{
   font-family: Lato-BoldItalic;
+  font-size: 3vw;
+  
 }

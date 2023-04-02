@@ -1,80 +1,59 @@
-import React,{useState,useEffect} from 'react';
-import { useInView } from 'react-intersection-observer';
+import React from 'react';
+import CountUp,{useCountUp} from  'react-countup'
 import "./chiffre.css";
 
-function useIncrement(a){
-    const[count,setCount]=useState(0)
-    let i=1;
-    const increment=()=>{
-        while (i<=a){
-            let t=i
-            setTimeout(setCount(i),i) 
-            i++
-        }
-        
-    }
-    return [count,increment]
-}
 
 
 
 
 
 
-function Chiffre(){
+function Chiffre({number,adding}){
 
-    const {ref:myRef ,inView:myElementIsVisible }=useInView();
-    const [count,increment]=useIncrement(400)
-
-    useEffect(()=>{
-        if (myElementIsVisible){
-            increment()
-        }
-    },[myElementIsVisible,increment])
-
-
-    /*const myRef= useRef();
-
-
-    const [myElementIsVisible,setMyElementIsVisible]=useState()
-
-
-    const [count,increment]=useIncrement(0,2)
+    /*const {ref:myRef ,inView:myElementIsVisible }=useInView();
     
 
+
+
+        
+
+
+    
     useEffect(()=>{
-        const observer= new IntersectionObserver((entries)=>{
-            const entry=entries[0]
-            setMyElementIsVisible(entry.isIntersecting)
-        })
-        observer.observe(myRef.current)
-        console.log(myElementIsVisible)
-    },[myElementIsVisible])
+        if (myElementIsVisible){
+        }
+    },[myElementIsVisible,])
 
 
 
 
-    const fixation=(a)=>{
-        while (count<a)
-            let i=window.setInterval(()=>{
-                increment()
-                },
-            2000)
-            clearInterval(i)
-    }
-   if (myElementIsVisible){
-    fixation(66)
-   }*/
-
-   //incrementation chaotic
-   //incrementation double ???????
-
+    
     return(
-        <div id="content">
-            <span className="chiffre" ref={myRef}  >{count}</span>
+        <div id="content" ref={myRef}>
+            
+            <span className="chiffre">{adding}</span>
 
-            <div id="label">Lorem ipsum</div>       
+                  
         </div>
-    )
+
+
+    
+    )*/
+
+    useCountUp({
+        ref: 'counter',
+        end: 100,
+        duration:10,
+        enableScrollSpy: true,
+        scrollSpyDelay: 0,
+      });
+    
+      return (
+        <div id="content">
+   
+          <span className="chiffre" ><CountUp  end={number} enableScrollSpy duration={5} />{adding}</span>
+          <div id="label">Lorem ipsum</div> 
+        </div>
+      );
 }
 export default Chiffre;

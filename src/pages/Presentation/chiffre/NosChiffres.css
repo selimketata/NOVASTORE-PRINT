@@ -14,13 +14,17 @@
 
 .separation{
     border-right: 1px solid black;
+    border-left: 1px solid black;
     height:fit-content;
     padding-right: 8vh;
+    padding-left: 8vh;
 }
 #chiffres{
     display: flex;
     flex-direction:row;
     gap:4vw;
+    width:fit-content;
+    height: auto;
 }
 #content{
     display:flex;
@@ -31,12 +35,25 @@
 }
 #titleChiffre{
     font-family: Lato-Black;
-    font-size: 2em;
+    font-size: 4vw;
 }
 #bolderText{
     font-size:larger;
     font-family: Lato-Bold;
+    font-size: 3vw;
+    max-width: 55vw;
+    text-align: center;
+    
 }
 #lighterText{
     font-family: Lato-Light;
+    font-size: 2vw;
+    max-width: 65vw;
+    text-align: center;
+
+}
+#test{
+    border-right: 1px solid black;
+    height:100vh;
+    padding-right: 8vh;
 }
