@@ -76,6 +76,7 @@ h1{
 }
 #p{
     font-weight:300;
+    margin-top: 3%;
 }
 #avis{
     font-style: light italic;
@@ -218,12 +219,64 @@ hr.light {
   }
   #picture{
     position: absolute;
-    margin-top: 0.5rem;
-    margin-left: 56.45%;
+    margin-top: 0.23rem;
+    margin-left: 58%;
     z-index: -1;
     width: 5%;
+    height: 5%;
 
   }
+  .imname1{
+    margin-top: -3%;
+  }
+  @media screen and (max-width: 1130px) {
+   .circles{
+    margin-left: 47%;
+   }
+   #picture{
+    margin-left: 58.5%;
+   }
+   }
+  @media screen and (max-width: 1050px) {
+   p{
+    font-size: 0.78rem;
+   }
+   .imname1{
+    margin-top: -5%;
+   }
+   .child1{
+    height: 30vh;
+   }
+   #picture{
+    margin-left: 60%;
+   }
+   .circles{
+    margin-left: 49%;
+    
+   }
+  }
+  @media screen and (max-width: 715px) {
+    p{
+     font-size: 0.5rem;
+    }
+    .imname1{
+     margin-top: -7%;
+    }
+    .child1{
+     height: 25vh;
+    }
+   }
+   @media screen and (max-width: 431px) {
+    p{
+     font-size: 0.3rem;
+    }
+    .imname1{
+     margin-top: -9%;
+    }
+    .child1{
+     height: 20vh;
+    }
+   }
 
 
 
