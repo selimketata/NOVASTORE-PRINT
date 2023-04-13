@@ -1,34 +1,29 @@
+.Partenaire-title{
+  text-align: right;
+  background-color: var(--color-bg);
+  margin-left: 2em;
+}
+ 
 
-.Partenaires-title{    
-    margin-left: 75%;
+#trait2{
+  border: 0.1em solid black;
+  background-color: var(--color-bg);
+  display: flex;
+  justify-content: right;
+  text-align: end;
+  margin-left: 65em;
+
 }
-#trait{
-    width: 100%;
-    border: 0.1em solid black;
-}
-.container{
-    height: 60vh;
-    margin: 0;
-    background-color: var(--color-bg);
-  }
-  img{
-    height: 10em;
-    width: 15em;
-  }
-  .Partners-container{
-    
-    margin-top: 5em;
+.container{ 
+    background-color: var(--color-bg);  
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 14em;
-    overflow: hidden;
+    justify-content: right;
+    align-items: end;
+
   }
-  .icon{
-    color: var(--color-light);
-    cursor: pointer;
-  }
-  button{
-    border: none;
-    background-color: var(--color-bg);
-  }
+.image{
+  background-color: var(--color-bg);
+}
+.partenaire-container{
+  background-color: var(--color-bg);
+}  

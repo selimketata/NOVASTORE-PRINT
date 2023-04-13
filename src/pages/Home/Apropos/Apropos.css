@@ -8,7 +8,7 @@ section{
 }
    
 
-hr{
+#trait1{
     width: 30%;
     border: 0.1em solid black;
 
@@ -44,7 +44,7 @@ hr{
     cursor: pointer;
     border: 1px solid white;
     color: white;
-    font-size: 17px;
+    font-size: 1em;
     display: flex;
     flex-wrap: 10px;
     align-items: center;
@@ -57,3 +57,31 @@ hr{
     align-items: flex-end;
     justify-content: right;
 }
+/* Media queries */
+@media only screen and (max-width: 768px) {
+    
+    .Apropos-text {
+      font-size: 0.5em;
+    }
+    .vid-btn {
+      margin-top: 3em;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+   
+    .Apropos-text {
+      font-size: 0.4em;
+    }
+    
+    .vid-btn {
+      margin-top: 10px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  

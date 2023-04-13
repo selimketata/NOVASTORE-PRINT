@@ -16,8 +16,8 @@ function NavBar() {
           </div>
         </div>
         <div className={isMobile? "Nav-elements-mobile":"Nav-elements"} onClick={()=>setIsMobile=(false)}>
-          <a href="#Home">Home</a>
-          <a href="#Presentation">Présentation</a>
+          <a href="#Home" >Home </a> 
+          <a href="#Presentation">Présentation</a> 
           <a href="#Services">Services</a>
           <a href="#Contact">Contact</a>
         </div>

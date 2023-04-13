@@ -8,7 +8,7 @@ export const Apropos = () => {
       <span className='Apropos-title'>
         <span className='Lettre1'>A</span> 
         <span className='titre'>Propos</span>
-        <hr />
+        <hr id='trait1' />
       </span>
       <div className='Apropos-container'>
         <img className='image' src={img} alt="" />

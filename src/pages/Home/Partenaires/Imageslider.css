@@ -1,0 +1,134 @@
+/* .image-slider {
+    position: relative;
+    background-color: var(--color-bg);
+  }
+  
+  .image-slider-container {
+    display: flex;
+    scroll-snap-type: x mandatory;
+    justify-content: center;
+    flex-direction: center;
+    gap: 10em;
+    overflow: hidden;
+  }
+  
+  .image-slide {
+    scroll-snap-align: center;
+    margin-right: 20px;
+    opacity: 0.6;
+    transition: transform 0.3s ease;
+  }
+  .image-slide img {
+    display: block;
+    width: 10em;
+    height: 10em;
+    flex-shrink: 0;
+  }
+  .image-slide.active {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  .prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--color-light);
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+
+.image-slider-container {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .image-slider-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .image-slider-container {
+    width: 80%;
+  }
+} */
+
+.image-slider {
+  position: relative;
+  background-color: var(--color-bg);
+}
+
+.image-slider-container {
+  display: flex;
+  scroll-snap-type: x mandatory;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2em;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .image-slider-container {
+    gap: 5em;
+  }
+}
+
+.image-slide {
+  scroll-snap-align: center;
+  opacity: 0.6;
+  transition: transform 0.3s ease;
+}
+
+.image-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-slide.active {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--color-light);
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
