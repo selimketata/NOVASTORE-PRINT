@@ -6,8 +6,8 @@ import './P1.css';
 export default function P1(props) {
   return (
     <div >
-       <img width={90} src={pic} id='picture' />
-      <h1>Ce Due Les Clients Disent De Nous</h1>
+      <div className='titre'>
+      <span ><h1 id='a'>Ce Que Les ClientsDisen</h1></span> <span > <h1 id='color'>t De</h1></span><span> <h1 id='b'> Nous</h1></span> </div>
       <hr className="light" />
       <div className="parent">
         {props.Users &&
@@ -17,9 +17,9 @@ export default function P1(props) {
                 <div className="container">
                   <div className="child1">
                     <div className="appostrophe">
-                      <img width={90} src={im3} />
+                      <img width={80} src={im3}  id='m'/>
                     </div>
-                    <div className="text">
+                    <div className="text" >
                       <p id="avis">{record.avis}</p>
                     </div>
                     <div className="imname1">
