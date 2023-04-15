@@ -1,4 +1,4 @@
-import { React,useState } from 'react'
+import React, { useState } from 'react'
 import {Card,Box,Typography,Button,CardContent}from"@mui/material"
 import Styled from"@emotion/styled"
 import img1 from'../photos/image1.png'
@@ -8,20 +8,22 @@ import before from"../photos/before.png"
 import after from"../photos/after.png"
 import "./cards.css"
 const StyledContent=Styled(CardContent)({
+    marginTop:"30px",
     display:"flex",
-    justifyContent:"space-between",
-    alignItems:"center"
-
+    justifyContent:"center",
+    alignItems:"center",
+    marginBottom:"20px"
 })
 const StyledText=Styled(Typography)({
     fontFamily:"Lato",
     fontWeight:"bolder",
-    display:'inline'    
-}
-)
+    fontSize:"60px",
+    display:'inline',
+      
+})
 const TextBox=Styled(Box)({ margin:"15px"})
 const StyledBox=Styled(Box)({
-    margin:"10px",display:"flex",justifyContent:"space-between",alignItems:"center",height:"60%",width:"100%",
+  display:"flex",alignItems:"center"
 })
 function Card3() {
     const[index,SetIndex]=useState(1)
@@ -40,7 +42,7 @@ function Card3() {
                <TextBox>
                 <StyledText variant='h3'><StyledText variant='h3'sx={{color:"#57C9EA"}}>P</StyledText>ublicité sur <StyledText variant='h3'sx={{color:"#57C9EA"}}>L</StyledText>ieux de <StyledText variant='h3'sx={{color:"#57C9EA"}}>V</StyledText>ente</StyledText><br />
                 </TextBox>
-                   <Typography variant="subtitle2">Azert fhjir bjheyt rety byby bsjkkz o ksdn onuroaz ch djdjd ppzhdo koijhgboistulier maids il najamais fait ca.</Typography>
+                   <Typography sx={{ marginBottom:"20px"}} variant="subtitle1">Azert fhjir bjheyt rety byby bsjkkz o ksdn onuroaz ch djdjd ppzhdo koijhgboistulier maids il najamais fait ca.</Typography>
                
                 <StyledContent>
                    <Button onClick={clicked} variant="contianed"><img className='buttons' src={before}/></Button>

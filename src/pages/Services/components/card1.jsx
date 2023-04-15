@@ -8,19 +8,22 @@ import before from"../photos/before.png"
 import after from"../photos/after.png"
 import "./cards.css"
 const StyledContent=Styled(CardContent)({
+    marginTop:"30px",
     display:"flex",
     justifyContent:"center",
     alignItems:"center",
-    columnGap:"5px"
+    marginBottom:"20px"
 })
 const StyledText=Styled(Typography)({
     fontFamily:"Lato",
     fontWeight:"bolder",
-    display:'inline'   
+    fontSize:"60px",
+    display:'inline',
+    textOverflow: "ellipsis"
 })
 const TextBox=Styled(Box)({ margin:"15px"})
 const StyledBox=Styled(Box)({
-   display:"flex",alignItems:"center"
+  display:"flex",alignItems:"center"
 })
 
 function Card1 () {
@@ -38,12 +41,11 @@ function Card1 () {
        <div className="back">
         <CardContent sx={{textAlign:"center"}}>   
                  <TextBox  >
-                <StyledText variant='h3'>Store<StyledText variant='h3'sx={{color:"#57C9EA"}}> & </StyledText>Abris</StyledText>
+                <StyledText variant="p">Store<StyledText variant='h3'sx={{color:"#57C9EA"}}> & </StyledText>Abris</StyledText>
                 </TextBox>
-                <Typography variant="subtitle2">Azert fhjir bjheyt rety byby bsjkkz o ksdn onuroaz ch djdjd ppzhdo koijhgboistulier maids il najamais fait ca.</Typography>
+                <Typography sx={{ marginBottom:"20px"}} variant="subtitle1">Azert fhjir bjheyt rety byby bsjkkz o ksdn onuroaz ch djdjd ppzhdo koijhgboistulier maids il najamais fait ca.</Typography>
                 
-           
-            
+          
              <StyledContent>
                 <Button onClick={clicked} variant="contianed"><img className='buttons' src={before}/></Button>
              <StyledBox >
@@ -53,7 +55,8 @@ function Card1 () {
             <Box sx={{display:{xs:"none",sm:"block"}}}><img className='image3' src={images[(index + 1) % images.length]} alt="img3" /></Box>
             </StyledBox>
             <Button onClick={Rclicked} variant="contianed"><img className='buttons' src={after}/></Button>
-            </StyledContent>        
+            </StyledContent>     
+        
         </CardContent>
         </div> 
     </Card> </Box>
