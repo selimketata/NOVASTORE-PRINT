@@ -17,7 +17,7 @@ body{
     margin-left: 5%;
     margin-right: 3%;
     box-shadow: 
-    0px 0px 10px rgba(0, 0, 0, 0.5);
+    0px 0px 10px inset rgba(0, 0, 0, 0.5);
     border-radius: 0.25rem;
     width: 45vw;
     height: 35vh;
