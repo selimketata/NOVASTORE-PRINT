@@ -9,8 +9,9 @@ import after from"../photos/after.png"
 import "./cards.css"
 const StyledContent=Styled(CardContent)({
     display:"flex",
-    justifyContent:"space-between",
-    alignItems:"center"
+    justifyContent:"center",
+    alignItems:"center",
+    columnGap:"5px"
 })
 const StyledText=Styled(Typography)({
     fontFamily:"Lato",
@@ -19,7 +20,7 @@ const StyledText=Styled(Typography)({
 })
 const TextBox=Styled(Box)({ margin:"15px"})
 const StyledBox=Styled(Box)({
-    margin:"10px",display:"flex",justifyContent:"space-evenly",alignItems:"center",height:"60%",width:"100%",
+   display:"flex",alignItems:"center"
 })
 
 function Card1 () {
