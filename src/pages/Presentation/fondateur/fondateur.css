@@ -3,19 +3,21 @@
     src: url(../../../police/Lato-Black.ttf);
   }
 #cadre{
-    border: 2px solid ;
+    border: 1px solid ;
     display: flex;
     flex-direction:row ;
     justify-content: space-between;
+    height: fit-content;
     margin:1vh;
-    height:auto;
+    width:90%
 }
 #author{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
     gap: 1vh;
-    font-size: 2vh;
+    font-size: 1.4vw;
 }
 #firstColumn{
     padding:4vh;
@@ -24,18 +26,20 @@
     justify-content: space-between;
 }
 #noun{
-    margin-right: 10%;
-    font-size: 2vh;
+    font-size: 2vw;
     font-weight: bold;
 }
 #title{
     margin-left: 27%;
     font-family: Lato-Black;
-    font-size: 3vh; 
+    font-size: 2vw; 
 }
 
 #image{
     background:url('../../../assets/parrot.jpg') no-repeat;
     height:auto;
     width:40vw;
+}
+#text{
+    font-size: 1.4vw;
 }
