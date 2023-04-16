@@ -8,21 +8,29 @@
 }
 
 .chiffre{
-    background: linear-gradient(rgb(85, 190, 247) 60%,white);
+    background: linear-gradient(rgb(85, 190, 247) 0%,rgb(85, 190, 247) 48%, rgba(85, 190, 247, 0.564) 48%,rgba(85, 190, 247, 0.564) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     font-size: 4vw;
     font-family: Lato-Black;
 }
-#content{
+#chiffreContent{
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #ffffff 35%,
+    rgba(192, 185, 185, 0.084) 35%,
+    rgba(164, 153, 153, 0.087) 100%
+  );
+  max-width: 15vw;
+  max-height: 15vh;
   display: flex;
   align-items: center;
   flex-direction: column;
+
 }
-
-
 #label{
   font-family: Lato-BoldItalic;
-  font-size: 3vw;
-  
+  font-size: 1.3vw;
+  color:#050727d6 ;
 }
