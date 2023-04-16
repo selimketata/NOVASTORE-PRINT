@@ -121,6 +121,13 @@ export const Imageslider = ({ Images }) => {
 
   return (
     <div className="image-slider">
+      {Images.length > 1 && (
+      <button className="prev-btn" onClick={prevImage}>
+            {' '}
+            <ArrowBackRoundedIcon fontSize='large' />
+          
+          </button>
+           )}
       <div className="image-slider-container">
         {Images.map((image, index) => (
           <div
@@ -128,7 +135,7 @@ export const Imageslider = ({ Images }) => {
             className={`image-slide ${index === currentIndex ? 'active' : ''}`}
             style={{
               transform: `translateX(-${currentIndex * 2}%)`,
-              width: `${100 / Images.length}%`,
+                width: `${100 / Images.length}%`,
             }}
           >
             <img src={image} alt={`Image ${index}`} />
@@ -136,16 +143,12 @@ export const Imageslider = ({ Images }) => {
         ))}
       </div>
       {Images.length > 1 && (
-        <>
-          <button className="prev-btn" onClick={prevImage}>
-            {' '}
-            <ArrowBackRoundedIcon />
-          </button>
+        
           <button className="next-btn" onClick={nextImage}>
             {' '}
-            <ArrowForwardRoundedIcon />
+            <ArrowForwardRoundedIcon size={"25px"}/>
           </button>
-        </>
+        
       )}
     </div>
   );

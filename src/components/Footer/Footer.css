@@ -15,15 +15,16 @@ ul li{
     margin-top: 0.7em;
 }
 .footer a{ 
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: white;
-    height: 3em;
-    width: 3em;
+    height: 3vw;
+    width: 3vw;
     border-radius: 50%;
     background-color: var(--color-bg-variant);
-    padding-top: 5px;
-
 }
 .footer a:hover{
     color: grey;
@@ -42,13 +43,16 @@ ul li{
     text-align: center;
     
 }
+.contact-icons li  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 @media screen and (max-width:780px) {
     
     body{
         font-size: 0.5em;
     }
-    .footer a{
-        width: 0.5em;
-        height: 0.5em;
-    }
+    
 }

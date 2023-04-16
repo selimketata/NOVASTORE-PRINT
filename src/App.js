@@ -4,14 +4,14 @@ import Presentation from "./pages/Presentation/Presentation";
 import Services from "./pages/Services/Services";
 import NavBar from "./components/NavBar/NavBar";
 import { Footer } from "./components/Footer/Footer";
+import { Routes, Route } from "react-router-dom";
 
 
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+
 function App() {
   return (
     <>
       <NavBar />
-      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contacts" element={<Contacts />} />
@@ -19,7 +19,6 @@ function App() {
           <Route path="/presentation" element={<Presentation />} />
           <Route path="*" element={<div>404 not found</div>} />
         </Routes>
-      </BrowserRouter>
       <Footer />
     </>
   );

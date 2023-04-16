@@ -10,12 +10,13 @@ export const Partenaires = () => {
   
   return (
     <div className='partenaire-container'>
-    <div className='Partenaire-title'>
+      <div className='Partenaire-title'>
         <span className='Lettre1'>Nos</span> 
-        <span className='titre'>Partenaires</span>
-        <hr id='trait2' />
+        <span className='titre'>Partenaires</span> 
+        {/* <hr id='trait2' /> */}
       </div>
-     <Imageslider  Images={[img1,img2,img3,img4]}/>
+      
+     <Imageslider  Images={[img1,img2,img3]}/>
     
     </div>
   )
