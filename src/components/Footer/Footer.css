@@ -25,6 +25,7 @@ ul li{
     width: 3vw;
     border-radius: 50%;
     background-color: var(--color-bg-variant);
+    padding: 10px;
 }
 .footer a:hover{
     color: grey;
@@ -53,6 +54,9 @@ ul li{
     
     body{
         font-size: 0.5em;
+    }
+    .footer a{
+        padding: 10px;
     }
     
 }

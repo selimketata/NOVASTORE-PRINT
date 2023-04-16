@@ -40,9 +40,9 @@ import AddLocationIcon from '@mui/icons-material/AddLocation';
             </ul> 
             </div>
             <ul className="contact-icons">
-                <li><a href=""><AiOutlineInstagram  /></a></li>
-                <li><a href=""><FaFacebookF /></a></li>
-                <li><a href=""><BsTwitter /></a></li>
+                <li><a href=""><AiOutlineInstagram  style={{ fontSize: '35px' }}/></a></li>
+                <li><a href=""><FaFacebookF style={{ fontSize: '35px' }} /></a></li>
+                <li><a href=""><BsTwitter style={{ fontSize: '35px' }}/></a></li>
             </ul>
 
        

@@ -93,9 +93,11 @@ import React, { useState, useEffect } from 'react';
 import './Imageslider.css';
 import ArrowBackRoundedIcon from '@mui/icons-material/ArrowBackRounded';
 import ArrowForwardRoundedIcon from '@mui/icons-material/ArrowForwardRounded';
+import { useMediaQuery } from '@mui/material';
 
 export const Imageslider = ({ Images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const isSmallScreen = useMediaQuery('(max-width:600px)');
 
   const prevImage = () => {
     const index = currentIndex === 0 ? Images.length - 1 : currentIndex - 1;
@@ -124,7 +126,7 @@ export const Imageslider = ({ Images }) => {
       {Images.length > 1 && (
       <button className="prev-btn" onClick={prevImage}>
             {' '}
-            <ArrowBackRoundedIcon fontSize='large' />
+            <ArrowBackRoundedIcon sx={{ fontSize: isSmallScreen ? 35 : 60 }} />
           
           </button>
            )}
@@ -146,7 +148,7 @@ export const Imageslider = ({ Images }) => {
         
           <button className="next-btn" onClick={nextImage}>
             {' '}
-            <ArrowForwardRoundedIcon size={"25px"}/>
+            <ArrowForwardRoundedIcon sx={{ fontSize: isSmallScreen ? 30 : 60 }}/>
           </button>
         
       )}

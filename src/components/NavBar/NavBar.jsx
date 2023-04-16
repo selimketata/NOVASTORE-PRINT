@@ -4,9 +4,11 @@ import './Navbar.css'
 import { useState } from "react";
 import DehazeIcon from '@mui/icons-material/Dehaze';
 import { useNavigate } from "react-router-dom";
+import { useMediaQuery } from '@mui/material';
 
 function NavBar() {
   const [isMobile , setIsMobile]=useState(false)
+  const isSmallScreen = useMediaQuery('(max-width:600px)');
   let navigate=useNavigate();
   return (
     <nav className="Nav-container">
@@ -18,10 +20,10 @@ function NavBar() {
           </div>
         </div>
         <div className={isMobile? "Nav-elements-mobile":"Nav-elements"} onClick={()=>setIsMobile(false)}>
-          <div onClick ={()=>navigate('/')} >Home </div> 
-          <div onClick ={()=>navigate('/presentation')} >Présentation</div> 
-          <div >Services</div>
-          <div >Contact</div>
+          <div className='nav' onClick ={()=>navigate('/')} >Home </div> 
+          <div className='nav' onClick ={()=>navigate('/presentation')} >Présentation</div> 
+          <div className='nav' >Services</div>
+          <div className='nav' >Contact</div>
         </div>
         
          <button className="Nav-btn" onClick={()=>setIsMobile(!isMobile)}><DehazeIcon/></button>

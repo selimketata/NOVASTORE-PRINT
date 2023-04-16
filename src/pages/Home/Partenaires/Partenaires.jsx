@@ -9,12 +9,15 @@ import './Partenaires.css'
 export const Partenaires = () => {
   
   return (
-    <div className='partenaire-container'>
-      <div className='Partenaire-title'>
+    <div >
+      <div  className='partenaire-container'>
+       <div className='Partenaire-title'>
         <span className='Lettre1'>Nos</span> 
         <span className='titre'>Partenaires</span> 
-        {/* <hr id='trait2' /> */}
+       
+       </div>
       </div>
+      
       
      <Imageslider  Images={[img1,img2,img3]}/>
     

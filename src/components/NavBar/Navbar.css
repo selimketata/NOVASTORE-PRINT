@@ -4,6 +4,9 @@
    justify-content: space-between;
    
 }
+nav{
+    background-color: var(--color-bg);
+}
 .logo{
     height: 3em;
     width: 7em;
@@ -34,13 +37,13 @@
     margin-right: 5em;
     gap: 1.5em;
 }
-a{
+.nav{
     font-size: 1.3em;
     text-decoration: none;
     color: var(--color-bg-variant);
     
 }
-a:hover{
+.nav:hover{
     color: var(--color-light);
 }
 .Nav-icon{
@@ -82,17 +85,19 @@ a:hover{
     }
     nav{
         background-color: var(--color-bg);
+       
     }
     .Nav-elements-mobile{
         position: absolute;
         text-decoration: none;
         background-color: var(--color-bg-variant);
         left:0;
-        top:65px;
+        top:40px;
         height: 50vh;
         width: 100%;
+        font-size: 1.84em;
     }
-    a{
+    .nav{
         text-decoration: none;
         color: white;
         text-align: center;
@@ -100,7 +105,10 @@ a:hover{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         height: max-content;
+        border-bottom: solid rgb(183, 179, 179) 1px;
+       
         
     }
     .Nav-btn{
