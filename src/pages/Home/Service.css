@@ -33,7 +33,6 @@
       background-Size: cover;
       background-Position: center;
        width: 31%;
-       
        aspect-ratio: 56/68;
       display: flex;
       flex-direction: column;
@@ -65,7 +64,8 @@
 
   .back-img:hover img, 
   .back-img:hover p{
-    transform: scale(1.4);
+    transform: scale(1.3);
+    
   }
   
   .back-img p {
@@ -95,6 +95,7 @@
    .back-img p {
     
       color: #F8F5E6;
+      
       font-weight: 500;
       font-size: 1rem;
       
