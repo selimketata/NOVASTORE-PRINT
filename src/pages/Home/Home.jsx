@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-
+import HomeImage from '../../components/HomeImage';
 function Home() {
   return (
     <div className="main">
