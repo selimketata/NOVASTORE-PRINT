@@ -16,8 +16,10 @@
     border-right: 1px solid black;
     border-left: 1px solid black;
     height:fit-content;
-    padding-right: 8vh;
-    padding-left: 8vh;
+    padding-right: 6vw;
+    padding-left: 6vw;
+    margin-left:2vw ;
+    margin-right:2vw ;
 }
 #chiffres{
     display: flex;
@@ -30,12 +32,13 @@
     display:flex;
     flex-direction:column ;
     align-items: center;
-    gap:4vh;
+    gap:2vw;
     
 }
 #titleChiffre{
     font-family: Lato-Black;
-    font-size: 4vw;
+    font-size: 5vw;
+    
 }
 #bolderText{
     font-size:larger;
@@ -43,7 +46,6 @@
     font-size: 3vw;
     max-width: 55vw;
     text-align: center;
-    
 }
 #lighterText{
     font-family: Lato-Light;
@@ -56,4 +58,14 @@
     border-right: 1px solid black;
     height:100vh;
     padding-right: 8vh;
+}
+#color-chiffre{
+    background-image: url('C:\Users\MSI\Desktop\projetjunior\NOVASTORE-PRINT\src\assets\title-background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left:0.1vw;
+    padding-bottom:0.7vw;
+    padding-right:0.1vw;
+    
 }

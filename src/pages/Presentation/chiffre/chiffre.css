@@ -11,16 +11,16 @@
     background: linear-gradient(rgb(85, 190, 247) 0%,rgb(85, 190, 247) 48%, rgba(85, 190, 247, 0.564) 48%,rgba(85, 190, 247, 0.564) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-    font-size: 4vw;
+    font-size: 6vw;
     font-family: Lato-Black;
 }
 #chiffreContent{
   background: linear-gradient(
     to bottom,
-    #ffffff 0%,
-    #ffffff 35%,
-    rgba(192, 185, 185, 0.084) 35%,
-    rgba(164, 153, 153, 0.087) 100%
+    #F8F5EC 0%,
+    #F8F5EC 35%,
+    rgba(255, 255, 255, 0.603) 35%,
+    rgba(255, 255, 255, 0.603) 100%
   );
   max-width: 15vw;
   max-height: 15vh;
@@ -30,7 +30,9 @@
 
 }
 #label{
+  background-color: rgba(255, 255, 255, 0.089) ;
   font-family: Lato-BoldItalic;
   font-size: 1.3vw;
   color:#050727d6 ;
+  z-index: ;
 }

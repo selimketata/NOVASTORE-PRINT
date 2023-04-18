@@ -3,31 +3,46 @@
     src: url(../../../police/Lato-Black.ttf);
   }
 #cadre{
-    border: 1px solid ;
+    border: 0.1vw solid ;
     display: flex;
     flex-direction:row ;
-    justify-content: space-between;
-    height: fit-content;
+    justify-content: space-around;
+    height: auto;
     margin:1vh;
-    width:90%
+    width:96vw;
+    
+}
+#author-container{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    
+    
 }
 #author{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-
-    gap: 1vh;
-    font-size: 1.4vw;
+    align-items: center;
+    gap: 0vh;
+    font-size: 1vw;
 }
 #firstColumn{
-    padding:4vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    
+    padding-left: 6vw;
+    padding-right: 6vw;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    box-shadow: inset 2px 2px 30px  rgba(0, 0, 0, 0.2);
 }
 #noun{
-    font-size: 2vw;
+    font-size: 1.6vw;
     font-weight: bold;
+    color: #57C9EA;
 }
 #title{
     margin-left: 27%;
@@ -36,10 +51,26 @@
 }
 
 #image{
-    background:url('../../../assets/parrot.jpg') no-repeat;
+    background:url('../../../assets/guy2edited7.jpg') no-repeat ;
+    background-size: contain;
     height:auto;
-    width:40vw;
+    width:60vw;
 }
 #text{
     font-size: 1.4vw;
+}
+#fondateur{
+    display: flex;
+    justify-content: center;
+}
+
+#color-fondateur{
+    background-image: url('C:\Users\MSI\Desktop\projetjunior\NOVASTORE-PRINT\src\assets\title-background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    padding-bottom:1.5vw;
+   
+    
 }

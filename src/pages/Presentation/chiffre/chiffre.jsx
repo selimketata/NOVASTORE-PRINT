@@ -44,7 +44,7 @@ function Chiffre({number,adding}){
           }
           })
           console.log("visible")
-        },3000)
+        },3500)
     },[myElementIsVisible])
 
 
