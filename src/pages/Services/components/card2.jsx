@@ -16,7 +16,6 @@ const StyledContent=Styled(CardContent)({
     marginBottom:"20px",
 })
 const StyledText=Styled(Typography)({
-    fontFamily:"Lato",
     fontWeight:"bolder",
     fontSize:"60px",
     display:'inline',   
@@ -36,7 +35,7 @@ function Card2() {
        SetIndex(((index + 3) -1) % 3)
     }     
      return (<Box> 
-       <Card sx={{backgroundColor: { xs: "white",sm:"#F8F5EC"}}}>
+       <Card sx={{backgroundColor: "#F8F5EC"}}>
     
            <CardContent sx={{textAlign:"center"}}>
            <TextBox >

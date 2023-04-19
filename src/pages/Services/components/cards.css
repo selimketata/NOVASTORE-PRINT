@@ -19,6 +19,7 @@
 }
 .back{
     padding-top: 20px;
-  background-color: rgba(87,201,234,0.08);
+    background-image: linear-gradient(to right,#F8F5EC,rgba(87, 202, 234,0.3),#F8F5EC);
+
   border-radius: 4%;
 }

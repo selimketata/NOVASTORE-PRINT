@@ -15,7 +15,6 @@ const StyledContent=Styled(CardContent)({
     marginBottom:"20px"
 })
 const StyledText=Styled(Typography)({
-    fontFamily:"Lato",
     fontWeight:"bolder",
     fontSize:"60px",
     display:'inline',
