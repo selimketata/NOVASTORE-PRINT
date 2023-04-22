@@ -8,20 +8,13 @@
 }
 
 .chiffre{
-    background: linear-gradient(rgb(85, 190, 247) 0%,rgb(85, 190, 247) 48%, rgba(85, 190, 247, 0.564) 48%,rgba(85, 190, 247, 0.564) 100%);
+    background: linear-gradient(rgb(85, 190, 247) ,#ffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     font-size: 6vw;
     font-family: Lato-Black;
 }
 #chiffreContent{
-  background: linear-gradient(
-    to bottom,
-    #F8F5EC 0%,
-    #F8F5EC 35%,
-    rgba(255, 255, 255, 0.603) 35%,
-    rgba(255, 255, 255, 0.603) 100%
-  );
   max-width: 15vw;
   max-height: 15vh;
   display: flex;

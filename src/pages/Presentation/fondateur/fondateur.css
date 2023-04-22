@@ -2,6 +2,14 @@
     font-family: Lato-Black;
     src: url(../../../police/Lato-Black.ttf);
   }
+  @font-face {
+    font-family: Lato-LightItalic;
+    src: url(../../../police/Lato-LightItalic.ttf);
+  }
+  @font-face {
+    font-family: Lato-Bold;
+    src: url(../../../police/Lato-Bold.ttf);
+  }
 #cadre{
     border: 0.1vw solid ;
     display: flex;
@@ -27,27 +35,28 @@
     font-size: 1vw;
 }
 #firstColumn{
-    padding-top: 4vh;
-    padding-bottom: 4vh;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
     
-    padding-left: 6vw;
-    padding-right: 6vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap:1.5vh;
 
-    box-shadow: inset 2px 2px 30px  rgba(0, 0, 0, 0.2);
+    box-shadow: inset 2px 2px 20px  rgba(0, 0, 0, 0.2);
 }
 #noun{
-    font-size: 1.6vw;
+    font-size: 2vw;
     font-weight: bold;
     color: #57C9EA;
 }
 #title{
     margin-left: 27%;
-    font-family: Lato-Black;
-    font-size: 2vw; 
+    font-family: Lato-Bold;
+    font-size: 2.5vw; 
 }
 
 #image{
@@ -57,7 +66,9 @@
     width:60vw;
 }
 #text{
-    font-size: 1.4vw;
+    font-size: 1.8vw;
+    font-family: Lato-LightItalic;
+
 }
 #fondateur{
     display: flex;

@@ -51,7 +51,6 @@ function Chiffre({number,adding}){
     
       return (
         <div id="chiffreContent">
-          <div id="mirror"></div>
           <span className="chiffre" ref={myRef}><span style={styles.count}  id="count"><CountUp  end={number} enableScrollSpy suffix={adding} duration={5} /></span><span style={styles.noCount} id="noCount">{number}{adding}</span></span>
           <div id="label">Lorem ipsum</div> 
         </div>
