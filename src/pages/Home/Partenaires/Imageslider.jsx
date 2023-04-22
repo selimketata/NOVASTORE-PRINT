@@ -126,7 +126,7 @@ export const Imageslider = ({ Images }) => {
       {Images.length > 1 && (
       <button className="prev-btn" onClick={prevImage}>
             {' '}
-            <ArrowBackRoundedIcon sx={{ fontSize: isSmallScreen ? 35 : 60 }} />
+            <ArrowBackRoundedIcon sx={{ fontSize: isSmallScreen ? 25 : 60 }} />
           
           </button>
            )}
@@ -148,7 +148,7 @@ export const Imageslider = ({ Images }) => {
         
           <button className="next-btn" onClick={nextImage}>
             {' '}
-            <ArrowForwardRoundedIcon sx={{ fontSize: isSmallScreen ? 30 : 60 }}/>
+            <ArrowForwardRoundedIcon sx={{ fontSize: isSmallScreen ? 25 : 60 }}/>
           </button>
         
       )}

@@ -4,8 +4,8 @@ import { Apropos } from "./Apropos/Apropos";
 import {Partenaires} from "./Partenaires/Partenaires";
 function Home() {
   return (
-   <div>
-      <Apropos />
+   <div className="home">
+       <Apropos />
        <Partenaires />
     </div>
 )
