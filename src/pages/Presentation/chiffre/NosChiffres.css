@@ -60,7 +60,7 @@
     padding-right: 8vh;
 }
 #color-chiffre{
-    background-image: url('C:\Users\MSI\Desktop\projetjunior\NOVASTORE-PRINT\src\assets\title-background.png');
+    background-image: url('../../../assets/title-background.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
