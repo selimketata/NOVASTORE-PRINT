@@ -1,0 +1,919 @@
+
+.footer_container{
+    background-color: #050727;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Bahnschrift;
+    overflow: hidden;
+   
+    
+}
+.footer_container .logo_div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_container .logo_div .logo img{
+    width: 70px;
+    height: 30px;
+    position: relative;
+    top: 40px
+}
+.footer_container .logo_div .logo{
+    position: relative;
+    top: -25px;
+}
+.footer_container .logo_div .logo p {
+    color: #F8F5E6;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: bolder;
+   
+    
+}
+.footer_container .logo_div .logo p span {
+    color: #57C9EA;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+.para{
+    color: #F8F5E6;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    top: -50px;
+}
+.lien h3{
+    color: #F8F5E6;
+    letter-spacing: 1px;
+    font-weight: lighter;
+
+}
+.lien {
+position: relative;
+top: 2px;
+}
+.lien ul{
+   list-style: none;
+  
+}
+.lien ul a{
+    text-decoration: none;
+    color: #707070;
+    margin-left: -38px;
+    margin-top: 5px;
+    font-size:12px;
+    letter-spacing: 1px;
+    font-weight:lighter;
+    
+}
+.lien ul a:hover{
+    color: #57C9EA;
+    transition: 0.3s ease-in-out;
+}
+.contact{
+    position: relative;
+    top: -3px;
+    
+}
+.contact h3{
+    color: #F8F5E6;
+    font-weight: lighter;
+}
+.contact  .span span{
+    display: flex;
+    flex-direction: column;
+    color: #707070;
+    font-size:12px;
+    letter-spacing: 1px;
+    font-weight:lighter;
+   text-align: center;
+   margin-bottom: 5px;
+   justify-content: center;
+}
+.social {
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.social a{
+  
+ height: 25px;
+ width: 25px;
+ border-radius: 100%;
+ background-color: #F8F5E6;
+ text-align: center;
+ display: flex; 
+  justify-content: center;
+ align-items: center;
+ 
+ margin: 0px 10px 10px 0px;
+ color: #050727;
+}
+.new{
+    
+    position: relative;
+    top: -8px;
+
+}
+.new h3{
+    color:#F8F5E6;
+    font-weight: lighter;
+}
+.new .span ,.new .email{
+    color: #878791;
+}
+.new .span{
+    display: flex;
+    flex-direction: column;
+    gap :10px;    
+}
+.new span{
+    font-size:12px;
+    font-weight:lighter;
+    letter-spacing: 1px;
+}
+.new .email{
+    margin-top: 10px;
+    
+
+}
+
+.new input{
+    border: none;
+    background-color: #050727;
+    color: #F8F5E6;
+    outline: none;
+    
+}
+
+.new input::placeholder{
+    color: #F8F5E6;
+    font-weight:lighter;
+}
+.new button{
+    border: 1px solid #F8F5E6;
+    background-color: #050727;
+    color:#F8F5E6;
+    cursor: pointer;
+}
+.new button :first-child{
+    position: relative;
+    top: 1px;
+   
+}
+.email{
+    padding-bottom: 5px;
+    margin: 0px;
+    border: none;
+ 
+  
+}
+.email hr{
+    width: 100%;
+   
+    border-bottom:1px solid #F8F5E6 ;
+}
+.footer .back{
+    background-color: #050727;
+    text-align: center;
+    color: #F8F5E6;
+    padding: 10px;
+    margin-top: -10px;
+    font-weight: bolder;
+
+}
+.footer .back button{
+    border: none;
+    background-color: #050727;
+    text-align: center;
+    color: #F8F5E6;
+   cursor: pointer;
+    
+}
+.footer .copy{
+    background-color:#F8F5E6; 
+  text-align: center;
+  font-weight: lighter;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 930px){
+
+    .footer_container{
+        background-color: #050727;
+        display: grid;
+        grid-template-areas: 
+        'header header'
+        'link link'
+        'news social';
+        flex-direction: column;
+        align-items: center;
+        font-family: Bahnschrift;
+        margin-bottom: -70px;
+    }
+    .logo_div{
+        grid-area: header; 
+    }
+    .footer_container .logo_div .logo{
+        text-align: center;
+    }
+    .footer_container .logo_div .logo img{
+        width: 110px;
+        height: 40px;
+        position: relative;
+        top: 65px;
+        left: -120px;
+    }
+    .footer_container .logo_div .logo{
+        position: relative;
+        top: -25px;
+    }
+    .footer_container .logo_div .logo p {
+        color: #F8F5E6;
+        font-size: 3rem;
+        letter-spacing: 1px;
+       
+        
+    }
+    .footer_container .logo_div .logo p span {
+        color: #57C9EA;
+        font-size: 3rem;
+        letter-spacing: 1px;
+    }
+    .para{
+        color: #F8F5E6;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: lighter;
+        letter-spacing: 1px;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        position: relative;
+        top: -85px;
+        right: -30vw;
+    }
+
+    .lien{
+        grid-area: link;
+        
+
+    }
+    .lien h3{
+        display: none;
+    }
+    .lien ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+         position: relative;
+        top: -80px;
+    }
+    .lien ul a{
+        text-decoration: none;
+        color: #F8F5E6;
+       
+       
+        font-size:1.1rem;
+        letter-spacing: 1px;
+        font-weight:lighter;
+        padding-bottom: 2px;
+      
+        border-bottom: 2px solid #F8F5E6;
+        
+    }
+    .contact{
+        grid-area: social;
+        position: relative;
+        left: -5vw;
+        top: -80px;
+    }
+    .contact h3{
+        font-size:1.5rem;
+        font-weight: bolder;
+        letter-spacing: 2.5px;
+    }
+    .contact .span span {
+        position: relative;
+        top: -20px;
+        
+        color: #F8F5E6;
+    }
+    .new .span span{
+        position: relative;
+        top: -20px;
+        text-align: center;
+        color: #F8F5E6;
+    }
+    .social{ 
+        position: relative;
+        top: -10px;
+    }
+    .new{
+        grid-area: news;
+        position: relative;
+        left: 5vw;
+        top: -80px;
+    }
+    .new h3{
+        font-size:1.5rem;
+        font-weight: bolder;
+        position: relative;
+        letter-spacing: 2.5px;
+        left: 10px;
+        }
+}
+
+ /* @media screen and (max-width: 600px){
+    .footer_container .logo_div .logo p {
+        font-size: 2.3rem;
+    }
+    .footer_container .logo_div .logo img{
+        width: 90px;
+        height: 40px;
+        position: relative;
+        top: 50px;
+        left: -97px;
+    }
+    .footer_container .logo_div .logo p span {
+        font-size: 2.3rem;
+    }
+    .lien ul{
+        margin-top: 30px;
+    }
+    .para{
+        font-size: 1rem;
+        top: -70px;
+        
+    }
+    .lien ul a{
+        font-size:1rem;  
+    }
+    .contact h3{
+        font-size:1.6rem;
+        
+    }
+    .new h3{
+        font-size:1.6rem;
+        }
+
+
+} */
+  
+@media screen and (max-width: 600px){  
+   
+    .lien ul a{
+        font-size:0.9rem;  
+    }
+    .contact h3{
+        font-size:1.3rem;
+        
+    }
+    .new h3{
+        font-size:1.3rem;
+        }
+
+}
+
+@media screen and (max-width: 540px){
+    .footer_container .logo_div .logo p {
+        font-size: 1.8rem;
+    }
+    .footer_container .logo_div .logo img{
+        width: 70px;
+        height: 30px;
+        position: relative;
+        top: 37px;
+        left: -75px;
+    }
+    .footer_container .logo_div .logo p span {
+        font-size: 1.8rem;
+    }
+    .lien ul{
+        margin-top: 30px;
+        justify-content: center;
+        gap: 60px;
+    }
+    .para{
+        font-size: 0.8rem;
+        top: -60px;
+        
+    }
+    .lien ul a{
+        font-size:0.8rem; 
+        border-bottom: 0.7px solid #F8F5E6; 
+    }
+    .email hr {
+        width: 83%;
+        border-bottom: 1px solid #F8F5E6;
+    }
+    .new h3{
+        font-size:1rem;
+        }
+        .contact{
+            position: relative;
+            left: -10px;
+            
+        }
+        .contact h3{
+            font-size:1rem;
+        }
+        .new {
+            top: -82px;
+            position: relative;
+            right: -10px;
+            
+        }
+        .contact .span span {
+            position: relative;
+            font-size: 0.6rem;
+            top: -10px;
+            
+            color: #F8F5E6;
+        }
+        .new .span span{
+            position: relative;
+            top: -10px;
+            font-size: 0.6rem;
+            text-align: center;
+            color: #F8F5E6;
+            left: -15px;
+        }
+        .new input::placeholder{
+            font-size: 0.7rem;
+        }
+        .new .email{
+            position: relative;
+            left: 10px;
+        }
+        .new button{
+            border: 1px solid #F8F5E6;
+            background-color: #050727;
+            color:#F8F5E6;
+            cursor: pointer;
+            position: relative;
+            top: 2px;
+            right: 30px;
+            width: 16px;
+            height: 15px;
+        }
+       
+        .new button :first-child{
+            position: relative;
+            top:-1px;
+            left: -6px;
+        } 
+            
+        .footer .back{
+            font-size: 0.8rem;
+        } 
+        .footer .copy{
+          font-size: 0.8rem;
+        } 
+    }
+       
+
+@media screen and (max-width: 355px){
+    .social a .icones{
+        size: 5px;
+    }
+    .social a{
+  
+        height: 23px;
+        width: 23px;
+       }
+    .footer_container .logo_div .logo p {
+        font-size: 1.4rem;
+    }
+    .footer_container .logo_div .logo img{
+        width: 55px;
+        height: 25px;
+        position: relative;
+        top: 30px;
+        left: -60px;
+    }
+    .footer_container .logo_div .logo p span {
+        font-size: 1.4rem;
+    }
+    .para{
+        font-size: 0.6rem;
+        top: -54px;
+    }
+    
+    .lien ul a{
+        margin-top: 5px;
+        font-size:0.6rem;
+        padding-bottom: 3px;
+        border-bottom: 1px solid #F8F5E6;
+
+    }
+    .contact{
+      
+        left: -15px;
+        top: -85px; 
+        margin-bottom: -30px;
+    }
+    .contact h3{
+        font-size:0.7rem;
+        margin-bottom: 15px;
+    }
+    .new {
+        top: -85px; 
+        margin-bottom: -30px;
+    }
+    .contact .span span {
+        align-items: center;
+        font-size: 0.5rem;
+       
+        color: #F8F5E6;
+    }
+    .new .span span{
+      
+       
+        font-size: 0.5rem;
+        text-align: center;
+        color: #F8F5E6;
+    }
+    .new .span span:last-child{
+        position: relative;
+        top: -15px;
+    }
+    .email hr {
+        width: 64%;
+        border-bottom: 1px solid #F8F5E6;
+    }
+    .new h3{
+        font-size:0.7rem;
+       
+        position: relative;
+        left: 15px;
+        margin-bottom: 15px;
+        
+        }
+       
+        .social a{
+           
+            z-index: 100;
+           }
+           .new .email{
+            position: relative;
+           top: -10px;
+            left: 15px;
+           
+        }
+           .new input::placeholder{
+           
+            font-size: 0.5rem;
+           
+        }
+        .new button{
+            border: 1px solid #F8F5E6;
+           
+            position: relative;
+            top: 5px;
+            right: 67px;
+            width: 15px;
+            height: 12px;
+            
+            
+        } 
+        .new button :first-child{
+            position: relative;
+            top:-2.5px;
+            left: -6px;
+        }
+        .footer .back{
+            background-color: #050727;
+            text-align: center;
+            font-size: 0.68rem;
+            color: #F8F5E6;
+            padding: -50px;
+            font-weight: bolder;
+        } 
+        .footer .copy{
+          font-size: 0.6rem;
+        } 
+}
+@media screen and (max-width: 320px){
+    
+    
+    .lien ul a{
+        margin-top: 5px;
+        font-size:0.5rem;
+        padding-bottom: 3px;
+        border-bottom: 1px solid #F8F5E6;
+
+    }
+    .contact{
+      
+        left: -25px;
+        top: -85px; 
+        margin-bottom: -30px;
+    }
+    .contact h3{
+        font-size:0.5rem;
+        margin-bottom: 15px;
+    }
+    .new {
+        top: -83px; 
+        margin-bottom: -30px;
+    }
+    .contact .span span {
+        align-items: center;
+        font-size: 0.4rem;
+       
+        color: #F8F5E6;
+    }
+    .new .span span{
+      
+       
+        font-size: 0.4rem;
+        text-align: center;
+        color: #F8F5E6;
+    }
+    .new .span span:first-child{
+        position: relative;
+        
+        left: -25px;
+    }
+    .new .span span:last-child{
+        position: relative;
+        top: -15px;
+        left: -20px;
+    }
+    .email hr {
+        width: 54%;
+        border-bottom: 1px solid #F8F5E6;
+    }
+    .new h3{
+        font-size:0.5rem;
+       
+        position: relative;
+        left: 15px;
+        margin-bottom: 15px;
+        
+        }
+       
+        .social a{
+           
+            z-index: 100;
+           }
+           .new .email{
+            position: relative;
+           top: -10px;
+            left: 15px;
+           
+        }
+           .new input::placeholder{
+           
+            font-size: 0.4rem;
+           
+        }
+        .new button{
+            
+           
+            position: relative;
+            top: 8px;
+            right: 87px;
+            width: 10px;
+            height: 11px;
+            
+            
+        } 
+        .new button :first-child{
+            position: relative;
+            top:-3px;
+            left: -6px;
+        }
+        .footer .back{
+            background-color: #050727;
+            text-align: center;
+            font-size: 0.6rem;
+            color: #F8F5E6;
+            padding: -50px;
+            font-weight: bolder;
+        } 
+        .footer .back button{
+            position: relative;
+            top: 2px;
+        }
+        .footer .copy{
+          font-size: 0.6rem;
+        } 
+}
+@media screen and (max-width: 288px){
+    
+    .lien ul .pres{
+        position: relative;
+        left: -10px;
+    }
+    .lien ul a{
+        margin-top: 5px;
+        font-size:0.4rem;
+       
+        padding-bottom: 3px;
+        border-bottom: 1px solid #F8F5E6;
+    }
+    .contact{
+        left: -25px;
+        top: -90px; 
+        margin-bottom: -50px;
+    }
+    .contact h3{
+        font-size:0.4rem;
+        margin-bottom: 15px;
+    }
+    .new {
+        top: -90px; 
+        margin-bottom: -50px;
+    }
+    .contact .span span {
+        align-items: center;
+        font-size: 0.35rem;
+       
+        color: #F8F5E6;
+    }
+    .new .span span{
+      
+       
+        font-size: 0.35rem;
+        text-align: center;
+        color: #F8F5E6;
+    }
+    .email hr {
+        width: 53%;
+        border-bottom: 1px solid #F8F5E6;
+        position: relative;
+        top: -3px;
+        z-index: 100;
+    }
+    .new h3{
+        font-size:0.4rem;
+       
+        position: relative;
+        left: 15px;
+        margin-bottom: 15px;
+        
+        }
+       
+        .social a{
+           
+            z-index: 100;
+           }
+           .new .email{
+            position: relative;
+           top: -10px;
+            left: 15px;
+           
+        }
+           .new input::placeholder{
+           
+            font-size: 0.4rem;
+           
+        }
+        .new button{
+            
+           
+            position: relative;
+            top: 5px;
+            right: 87px;
+            width: 10px;
+            height: 11px;
+            
+            
+        } 
+        .new button :first-child{
+            position: relative;
+            top:-3px;
+            left: -6px;
+        }
+        .footer .back{
+            background-color: #050727;
+            text-align: center;
+            font-size: 0.5rem;
+            color: #F8F5E6;
+            padding: -50px;
+            font-weight: bolder;
+            position: relative;
+            top: 9px;
+        } 
+        .footer .back button{
+            position: relative;
+            top: 2.5px;
+        }
+        .footer .copy{
+          font-size: 0.5rem;
+        } 
+}  
+@media screen and (max-width: 284px){
+    
+    .lien ul .pres{
+        position: relative;
+        left: -10px;
+    }
+    .lien ul a{
+        margin-top: 5px;
+        font-size:0.4rem;
+       
+        padding-bottom: 3px;
+        border-bottom: 1px solid #F8F5E6;
+    }
+    .contact{
+        left: -25px;
+        top: -90px; 
+        margin-bottom: -50px;
+    }
+    .contact h3{
+        font-size:0.4rem;
+        margin-bottom: 15px;
+    }
+    .new {
+        top: -79px; 
+        margin-bottom: -50px;
+    }
+    .contact .span span {
+        align-items: center;
+        font-size: 0.35rem;
+       
+        color: #F8F5E6;
+    }
+    .new .span span{
+      
+       
+        font-size: 0.35rem;
+        text-align: center;
+        color: #F8F5E6;
+    }
+    .email hr {
+        width: 58%;
+        border-bottom: 1px solid #F8F5E6;
+        position: relative;
+        top: -24px;
+    }
+    .new h3{
+        font-size:0.4rem;
+       
+        position: relative;
+        left: 15px;
+        margin-bottom: 15px;
+        
+        }
+       
+        .social a{
+           
+            z-index: 100;
+           }
+           .new .email{
+            position: relative;
+           top: -10px;
+            left: 15px;
+           
+        }
+           .new input::placeholder{
+           
+            font-size: 0.4rem;
+           
+        }
+        .new button{
+            
+           
+            position: relative;
+            top: -15px;
+            right: -87px;
+            width: 10px;
+            height: 11px;
+            
+            
+        } 
+        .new button :first-child{
+            position: relative;
+            top:-3px;
+            left: -6px;
+        }
+        .footer .back{
+            background-color: #050727;
+            text-align: center;
+            font-size: 0.5rem;
+            color: #F8F5E6;
+            padding: -50px;
+            font-weight: bolder;
+        } 
+        .footer .back button{
+            position: relative;
+            top: 2.5px;
+        }
+        .footer .copy{
+          font-size: 0.5rem;
+        } 
+}  
+
