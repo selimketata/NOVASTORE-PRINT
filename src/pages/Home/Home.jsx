@@ -1,11 +1,9 @@
 import React from "react";
 import "./Home.css";
-import Service from "./Service";
+import Service from "./components/Service";
 
 function Home() {
-  return (
-    <Service />
-  )
+  return <Service />;
 }
 
 export default Home;

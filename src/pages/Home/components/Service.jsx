@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./Service.css";
-import Abri2 from "../../assets/abri2.png";
-import imp2 from "../../assets/imp2.png";
-import plv2 from "../../assets/plv2.png";
-import Img1 from "../../assets/Img1.png";
-import Img2 from "../../assets/Img2.png";
-import Img3 from "../../assets/Img3.png";
+import Abri2 from "../../../assets/abri2.png";
+import imp2 from "../../../assets/imp2.png";
+import plv2 from "../../../assets/plv2.png";
+import Img1 from "../../../assets/Img1.png";
+import Img2 from "../../../assets/Img2.png";
+import Img3 from "../../../assets/Img3.png";
 
 function Service() {
   const [hover, setHover] = useState(false);
