@@ -26,7 +26,7 @@ function Footer() {
         <h3>USEFUL LINKS</h3>
         <ul>
           <li><a href="/">HOME</a></li>
-          <li><a href="/presentation">PRESENTATION</a></li>
+          <li><a href="/presentation"className="pres">PRESENTATION</a></li>
           <li><a href="/services">SERVICES</a></li>
           <li><a href="/contacts">CONTACTS</a></li>
         </ul>
@@ -39,9 +39,9 @@ function Footer() {
         <span>NovaStore@gmail.com</span>
        </div>
         <div className="social">
-            <a href=""><FaFacebookF /></a>
-             <a href=""><BsInstagram  /></a>
-              <a href=""><BsMessenger /></a>
+            <a href=""><FaFacebookF  size={"15px"} className="icones"/></a>
+             <a href=""><BsInstagram size={"15px"} className="icones" /></a>
+              <a href=""><BsMessenger size={"15px"}className="icones" /></a>
         </div>
         </div>
         <div className="new">
