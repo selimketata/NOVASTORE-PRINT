@@ -3,8 +3,6 @@ import "./Contacts.css";
 import{AiOutlineInstagram} from  "react-icons/ai";
 import{FaFacebookF} from "react-icons/fa" ;
 import{BsTwitter} from "react-icons/bs" ;
-import{AiFillLinkedin,AiOutlineMail} from "react-icons/ai" ;
-import{ MdLocationPin} from "react-icons/md";
 import CallIcon from '@mui/icons-material/Call';
 import MailIcon from '@mui/icons-material/Mail';
 import AddLocationIcon from '@mui/icons-material/AddLocation';

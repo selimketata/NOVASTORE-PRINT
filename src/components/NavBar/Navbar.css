@@ -71,7 +71,7 @@ nav{
     } */
     .logo-container{
         margin-left: 15vw;
-        margin-top: 3vh;
+        /* margin-top: 1vh; */
         display: flex;
        flex-direction: column;
     }
@@ -104,7 +104,7 @@ nav{
         text-decoration: none;
         background-color: var(--color-bg-variant);
         left:0;
-        top:14vh;
+        top:10vh;
         /* height: 50vh; */
         width: 100%;
         font-size: 4vw;
@@ -150,7 +150,7 @@ nav{
     }
     .logo-container{
         margin-left: 15vw;
-        margin-top: 3vh;
+        margin-top: 2vh;
         display: flex;
        flex-direction: column;
     }
@@ -168,7 +168,7 @@ nav{
         text-decoration: none;
         background-color: var(--color-bg-variant);
         left:0;
-        top:8vh;
+        top:7vh;
         /* height: 50vh; */
         width: 100%;
         font-size: 4vw;
@@ -189,7 +189,7 @@ nav{
         
     }
     .Nav-btn{
-        margin-top: 3vh;
+        margin-top: 1vh;
         display: block;
         position: relative;
         font-size:30px; 
