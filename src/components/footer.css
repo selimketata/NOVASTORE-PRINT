@@ -183,7 +183,7 @@ top: 2px;
    
     border-bottom:1px solid #F8F5E6 ;
 }
-.footer .back{
+.footer .backToTop{
     background-color: #050727;
     text-align: center;
     color: #F8F5E6;
@@ -192,7 +192,7 @@ top: 2px;
     font-weight: bolder;
 
 }
-.footer .back button{
+.footer .backToTop button{
     border: none;
     background-color: #050727;
     text-align: center;
@@ -474,7 +474,7 @@ top: 2px;
             left: -6px;
         } 
             
-        .footer .back{
+        .footer .backToTop{
             font-size: 0.8rem;
         } 
         .footer .copy{
@@ -592,7 +592,7 @@ top: 2px;
             top:-2.5px;
             left: -6px;
         }
-        .footer .back{
+        .footer .backToTop{
             background-color: #050727;
             text-align: center;
             font-size: 0.68rem;
@@ -695,7 +695,7 @@ top: 2px;
             top:-3px;
             left: -6px;
         }
-        .footer .back{
+        .footer .backToTop{
             background-color: #050727;
             text-align: center;
             font-size: 0.6rem;
@@ -703,7 +703,7 @@ top: 2px;
             padding: -50px;
             font-weight: bolder;
         } 
-        .footer .back button{
+        .footer .backToTop button{
             position: relative;
             top: 2px;
         }
@@ -797,7 +797,7 @@ top: 2px;
             top:-3px;
             left: -6px;
         }
-        .footer .back{
+        .footer .backToTop{
             background-color: #050727;
             text-align: center;
             font-size: 0.5rem;
@@ -807,7 +807,7 @@ top: 2px;
             position: relative;
             top: 9px;
         } 
-        .footer .back button{
+        .footer .backToTop button{
             position: relative;
             top: 2.5px;
         }
@@ -900,7 +900,7 @@ top: 2px;
             top:-3px;
             left: -6px;
         }
-        .footer .back{
+        .footer .backToTop{
             background-color: #050727;
             text-align: center;
             font-size: 0.5rem;
@@ -908,7 +908,7 @@ top: 2px;
             padding: -50px;
             font-weight: bolder;
         } 
-        .footer .back button{
+        .footer .backToTop button{
             position: relative;
             top: 2.5px;
         }
