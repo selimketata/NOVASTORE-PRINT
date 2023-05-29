@@ -255,6 +255,22 @@ hr.light {
 
    
    }
+   @media screen and (max-width: 376px) {
+    #nom{
+      font-size: 0.2rem;
+     
+    }
+   
+    #avis{
+      font-size: 0.1rem;
+      margin-top: -15%;
+      height: 1vh;
+  
+     
+    }
+
+   }
+ 
   @media screen and (max-width: 1050px) {
    #p{
     margin-top: 1rem;
@@ -281,6 +297,19 @@ hr.light {
  .circles{
   margin-left: 46.5%;
  }}
+ /*@media screen and (max-width: 1025px) {
+  #avis{
+
+    font-size: 0.5rem;
+    margin-top: -2%;
+  }
+ 
+ }*/
+ @media screen and (max-width: 913px) {
+  #p{
+    margin-top: 4%;
+  }
+ }
   @media screen and (max-width: 907px) {
     #avis{
       font-size: 0.7rem;
@@ -290,6 +319,9 @@ hr.light {
   @media screen and (max-width: 840px) {
     .circles{
       margin-left: 45.5%;
+    }
+    #p{
+      margin-top: 3.5%;
     }
   }
   @media screen and (max-width: 730px) {
@@ -373,6 +405,9 @@ hr.light {
   padding-top: 30%;
   padding-right: 12%;
  }
+ #p{
+  margin-top: 3%;
+}
    }
 
  
@@ -413,14 +448,39 @@ hr.light {
   #avis{
     font-size: 0.47rem;
     margin-top: 5%;
+    padding-right: 12%;
   }
   
    
   }
-  
+  @media screen and (max-width: 540px) {
+    #avis{
+      padding-right: 30%;
+      
+    }
+  }
+ 
+  @media screen and (max-width: 559px) {
+    #avis{
+      padding-right: 19%;
+    } 
+  }
+  @media screen and (max-width: 706px) {
+    #avis{
+      padding-right: 7%;
+    }
+  }
   @media screen and (max-width: 445px) {
     .circles{
       margin-left: 43.5%;
+    }
+    #avis{
+      padding-right: 12%;
+    }
+  }
+  @media screen and (max-width: 415px) {
+    #avis{
+      padding-right: 11%;
     }
   }
   @media screen and (max-width: 412px) {
@@ -489,6 +549,7 @@ hr.light {
    
   
   }
+ 
   @media (max-width: 380px) {
     #color {
       font-size: 1rem;
@@ -498,6 +559,7 @@ hr.light {
     #avis{
       font-size: 0.4rem;
       margin-top: 6%;
+      padding-right: 25%;
     }
   
     #a, #b {
@@ -513,15 +575,28 @@ hr.light {
     .circles{
       margin-left: 41.5%;
     }
+    #p{
+      font-size: 40%;
+      margin-top: 3.5%;
+    }
   
   }
-  
+  @media screen and (max-width: 340px) {
+    #p{
+      font-size: 25%;
+      margin-top: 3.5%;
+    }
+  }
   @media screen and (max-width: 322px) {
     .circles{
       margin-left: 40.5%;
     }
   }
   @media (max-width: 300px) {
+    #p{
+      font-size: 16%;
+      margin-top: 3.5%;
+    }
     .circles{
       margin-left: 39.5%;
     }
@@ -560,8 +635,15 @@ hr.light {
     .child1{
       height: 11.5vh;
     }
-    ;.imname1{
-      margin-top: 3rem;
+    .imname1{
+      margin-top: -0.5rem;
+    }
+  }
+
+  @media (max-width: 286px) {
+    #p{
+      font-size: 0.28rem;
+      margin-top: 3.5%;
     }
   }
   @media (max-width: 270px) {
@@ -570,6 +652,11 @@ hr.light {
     }
     .circles{
       margin-left: 38%;
+    }
+    #p{
+      margin-top: 3%;
+      font-size: 0.3rem;
+      margin-right: 4%;
     }
   }
 
@@ -586,10 +673,21 @@ hr.light {
     }
     #avis{
       margin-top: 35%;
-      margin-left: -30%;
+      margin-left: -20%;
       font-size: 0.32rem;
+      width: 10vh;
+    }
+    #p{
+      margin-top: 3%;
+      font-size: 0.3rem;
+      margin-right: 4%;
     }
 
+  }
+  @media (max-width: 236px) {
+    #avis{
+
+    }
   }
   @media (max-width: 230px) {
     .imname1{
