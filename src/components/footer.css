@@ -14,17 +14,17 @@
     flex-direction: column;
 }
 
-.footer_container .logo_div .logo img{
+.footer_container .logo_div .footer-logo img{
     width: 70px;
     height: 30px;
     position: relative;
     top: 40px
 }
-.footer_container .logo_div .logo{
+.footer_container .logo_div .footer-logo{
     position: relative;
     top: -25px;
 }
-.footer_container .logo_div .logo p {
+.footer_container .logo_div .footer-logo p {
     color: #F8F5E6;
     font-size: 2rem;
     letter-spacing: 1px;
@@ -32,7 +32,7 @@
    
     
 }
-.footer_container .logo_div .logo p span {
+.footer_container .logo_div .footer-logo p span {
     color: #57C9EA;
     font-size: 2rem;
     letter-spacing: 1px;
@@ -60,11 +60,11 @@
 position: relative;
 top: 2px;
 }
-.lien ul{
+.lien .footer-ul{
    list-style: none;
   
 }
-.lien ul a{
+.lien .footer-ul a{
     text-decoration: none;
     color: #707070;
     margin-left: -38px;
@@ -74,20 +74,20 @@ top: 2px;
     font-weight:lighter;
     
 }
-.lien ul a:hover{
+.lien .footer-ul a:hover{
     color: #57C9EA;
     transition: 0.3s ease-in-out;
 }
-.contact{
+.footer-contact{
     position: relative;
     top: -3px;
     
 }
-.contact h3{
+.footer-contact h3{
     color: #F8F5E6;
     font-weight: lighter;
 }
-.contact  .span span{
+.footer-contact  .span span{
     display: flex;
     flex-direction: column;
     color: #707070;
@@ -224,28 +224,28 @@ top: 2px;
     .logo_div{
         grid-area: header; 
     }
-    .footer_container .logo_div .logo{
+    .footer_container .logo_div .footer-logo{
         text-align: center;
     }
-    .footer_container .logo_div .logo img{
+    .footer_container .logo_div .footer-logo img{
         width: 110px;
         height: 40px;
         position: relative;
         top: 65px;
         left: -120px;
     }
-    .footer_container .logo_div .logo{
+    .footer_container .logo_div .footer-logo{
         position: relative;
         top: -25px;
     }
-    .footer_container .logo_div .logo p {
+    .footer_container .logo_div .footer-logo p {
         color: #F8F5E6;
         font-size: 3rem;
         letter-spacing: 1px;
        
         
     }
-    .footer_container .logo_div .logo p span {
+    .footer_container .logo_div .footer-logo p span {
         color: #57C9EA;
         font-size: 3rem;
         letter-spacing: 1px;
@@ -272,14 +272,14 @@ top: 2px;
     .lien h3{
         display: none;
     }
-    .lien ul{
+    .lien .footer-ul{
         display: flex;
         justify-content: space-between;
         align-items: center;
          position: relative;
         top: -80px;
     }
-    .lien ul a{
+    .lien .footer-ul a{
         text-decoration: none;
         color: #F8F5E6;
        
@@ -292,18 +292,18 @@ top: 2px;
         border-bottom: 2px solid #F8F5E6;
         
     }
-    .contact{
+    .footer-contact{
         grid-area: social;
         position: relative;
         left: -5vw;
         top: -80px;
     }
-    .contact h3{
+    .footer-contact h3{
         font-size:1.5rem;
         font-weight: bolder;
         letter-spacing: 2.5px;
     }
-    .contact .span span {
+    .footer-contact .span span {
         position: relative;
         top: -20px;
         
@@ -335,20 +335,20 @@ top: 2px;
 }
 
  /* @media screen and (max-width: 600px){
-    .footer_container .logo_div .logo p {
+    .footer_container .logo_div .footer-logo p {
         font-size: 2.3rem;
     }
-    .footer_container .logo_div .logo img{
+    .footer_container .logo_div .footer-logo img{
         width: 90px;
         height: 40px;
         position: relative;
         top: 50px;
         left: -97px;
     }
-    .footer_container .logo_div .logo p span {
+    .footer_container .logo_div .footer-logo p span {
         font-size: 2.3rem;
     }
-    .lien ul{
+    .lien .footer-ul{
         margin-top: 30px;
     }
     .para{
@@ -356,10 +356,10 @@ top: 2px;
         top: -70px;
         
     }
-    .lien ul a{
+    .lien .footer-ul a{
         font-size:1rem;  
     }
-    .contact h3{
+    .footer-contact h3{
         font-size:1.6rem;
         
     }
@@ -372,10 +372,10 @@ top: 2px;
   
 @media screen and (max-width: 600px){  
    
-    .lien ul a{
+    .lien .footer-ul a{
         font-size:0.9rem;  
     }
-    .contact h3{
+    .footer-contact h3{
         font-size:1.3rem;
         
     }
@@ -386,20 +386,20 @@ top: 2px;
 }
 
 @media screen and (max-width: 540px){
-    .footer_container .logo_div .logo p {
+    .footer_container .logo_div .footer-logo p {
         font-size: 1.8rem;
     }
-    .footer_container .logo_div .logo img{
+    .footer_container .logo_div .footer-logo img{
         width: 70px;
         height: 30px;
         position: relative;
         top: 37px;
         left: -75px;
     }
-    .footer_container .logo_div .logo p span {
+    .footer_container .logo_div .footer-logo p span {
         font-size: 1.8rem;
     }
-    .lien ul{
+    .lien .footer-ul{
         margin-top: 30px;
         justify-content: center;
         gap: 60px;
@@ -409,7 +409,7 @@ top: 2px;
         top: -60px;
         
     }
-    .lien ul a{
+    .lien .footer-ul a{
         font-size:0.8rem; 
         border-bottom: 0.7px solid #F8F5E6; 
     }
@@ -420,12 +420,12 @@ top: 2px;
     .new h3{
         font-size:1rem;
         }
-        .contact{
+        .footer-contact{
             position: relative;
             left: -10px;
             
         }
-        .contact h3{
+        .footer-contact h3{
             font-size:1rem;
         }
         .new {
@@ -434,7 +434,7 @@ top: 2px;
             right: -10px;
             
         }
-        .contact .span span {
+        .footer-contact .span span {
             position: relative;
             font-size: 0.6rem;
             top: -10px;
@@ -492,17 +492,17 @@ top: 2px;
         height: 23px;
         width: 23px;
        }
-    .footer_container .logo_div .logo p {
+    .footer_container .logo_div .footer-logo p {
         font-size: 1.4rem;
     }
-    .footer_container .logo_div .logo img{
+    .footer_container .logo_div .footer-logo img{
         width: 55px;
         height: 25px;
         position: relative;
         top: 30px;
         left: -60px;
     }
-    .footer_container .logo_div .logo p span {
+    .footer_container .logo_div .footer-logo p span {
         font-size: 1.4rem;
     }
     .para{
@@ -510,20 +510,20 @@ top: 2px;
         top: -54px;
     }
     
-    .lien ul a{
+    .lien .footer-ul a{
         margin-top: 5px;
         font-size:0.6rem;
         padding-bottom: 3px;
         border-bottom: 1px solid #F8F5E6;
 
     }
-    .contact{
+    .footer-contact{
       
         left: -15px;
         top: -85px; 
         margin-bottom: -30px;
     }
-    .contact h3{
+    .footer-contact h3{
         font-size:0.7rem;
         margin-bottom: 15px;
     }
@@ -531,7 +531,7 @@ top: 2px;
         top: -85px; 
         margin-bottom: -30px;
     }
-    .contact .span span {
+    .footer-contact .span span {
         align-items: center;
         font-size: 0.5rem;
        
@@ -607,20 +607,20 @@ top: 2px;
 @media screen and (max-width: 320px){
     
     
-    .lien ul a{
+    .lien .footer-ul a{
         margin-top: 5px;
         font-size:0.5rem;
         padding-bottom: 3px;
         border-bottom: 1px solid #F8F5E6;
 
     }
-    .contact{
+    .footer-contact{
       
         left: -25px;
         top: -85px; 
         margin-bottom: -30px;
     }
-    .contact h3{
+    .footer-contact h3{
         font-size:0.5rem;
         margin-bottom: 15px;
     }
@@ -628,7 +628,7 @@ top: 2px;
         top: -83px; 
         margin-bottom: -30px;
     }
-    .contact .span span {
+    .footer-contact .span span {
         align-items: center;
         font-size: 0.4rem;
        
@@ -713,23 +713,23 @@ top: 2px;
 }
 @media screen and (max-width: 288px){
     
-    .lien ul .pres{
+    .lien .footer-ul .pres{
         position: relative;
         left: -10px;
     }
-    .lien ul a{
+    .lien .footer-ul a{
         margin-top: 5px;
         font-size:0.4rem;
        
         padding-bottom: 3px;
         border-bottom: 1px solid #F8F5E6;
     }
-    .contact{
+    .footer-contact{
         left: -25px;
         top: -90px; 
         margin-bottom: -50px;
     }
-    .contact h3{
+    .footer-contact h3{
         font-size:0.4rem;
         margin-bottom: 15px;
     }
@@ -737,7 +737,7 @@ top: 2px;
         top: -90px; 
         margin-bottom: -50px;
     }
-    .contact .span span {
+    .footer-contact .span span {
         align-items: center;
         font-size: 0.35rem;
        
@@ -817,23 +817,23 @@ top: 2px;
 }  
 @media screen and (max-width: 284px){
     
-    .lien ul .pres{
+    .lien .footer-ul .pres{
         position: relative;
         left: -10px;
     }
-    .lien ul a{
+    .lien .footer-ul a{
         margin-top: 5px;
         font-size:0.4rem;
        
         padding-bottom: 3px;
         border-bottom: 1px solid #F8F5E6;
     }
-    .contact{
+    .footer-contact{
         left: -25px;
         top: -90px; 
         margin-bottom: -50px;
     }
-    .contact h3{
+    .footer-contact h3{
         font-size:0.4rem;
         margin-bottom: 15px;
     }
@@ -841,7 +841,7 @@ top: 2px;
         top: -79px; 
         margin-bottom: -50px;
     }
-    .contact .span span {
+    .footer-contact .span span {
         align-items: center;
         font-size: 0.35rem;
        

@@ -13,20 +13,20 @@ function Footer() {
     <div className="footer">
       <div className="footer_container">
         <div className="logo_div">
-          <div className="logo">
+          <div className="footer-logo">
             <img src={logo} alt="logo" />
             <p>
-              NovaStore <span>Print</span>
+              NovaStore <span className="footer-span">Print</span>
             </p>
           </div>
           <div className="para">
-            <span>You think it.</span>
-            <span>We print it!</span>
+            <span className="footer-span">You think it.</span>
+            <span className="footer-span">We print it!</span>
           </div>
         </div>
         <div className="lien">
           <h3>USEFUL LINKS</h3>
-          <ul>
+          <ul className="footer-ul">
             <li>
               <a href="/">HOME</a>
             </li>
@@ -43,12 +43,12 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="contact">
+        <div className="footer-contact">
           <h3>NOUS CONTACTER</h3>
           <div className="span">
-            <span>+216 22 222 222</span>
+            <span className="footer-span">+216 22 222 222</span>
 
-            <span>NovaStore@gmail.com</span>
+            <span className="footer-span">NovaStore@gmail.com</span>
           </div>
           <div className="social">
             <a href="">
@@ -65,8 +65,8 @@ function Footer() {
         <div className="new">
           <h3>NEWSLETTER</h3>
           <div className="span">
-            <span>Soyer le premier a revecoir</span>
-            <span>nos noveautés</span>
+            <span className="footer-span">Soyer le premier a revecoir</span>
+            <span className="footer-span">nos noveautés</span>
           </div>
           <div className="email">
             <input type="email" placeholder="Entrez votre adresse email" />
