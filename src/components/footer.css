@@ -1,0 +1,7 @@
+.big{
+    background-color: #050727;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px; ;
+}
