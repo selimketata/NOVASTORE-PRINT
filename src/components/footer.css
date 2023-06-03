@@ -3,13 +3,12 @@
     color: white;
     display: grid;
     grid-template-columns: 1fr;
-    justify-content: space-around;
-    padding-top: 10px; ;
+   
 }
 .small{
     grid-area: small;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .one{
     grid-area: one ;
@@ -29,7 +28,7 @@
     grid-template-columns: 1fr;
 }
 .icons{
-    
+  
     color: #ffffff;
 }
 .links{
@@ -45,13 +44,18 @@ opacity: 0.8;
 
  @media screen and (max-width: 599px) {
  .big {
+   
   text-align: center;
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "one"
   "two"
   "small";
   align-items: center;
-  
+    
+ }
+ .small{
+    padding-bottom: 1vw;
+   justify-content: space-around;
  }
  .list {
     text-align: center;
@@ -59,20 +63,33 @@ opacity: 0.8;
     grid-template-areas:
     'home presentation services contact';
     align-items: center;
-   
+    
   }
+  .link{
+    text-decoration: underline;
+    text-underline-offset:1vw;
+  }
+
   .text{
     margin-left: 42%;
     display: flex;
    
   }
- }
+.image{
+    margin-right: 36%;
+}
+}
 
  @media screen and (min-width: 600px) {
  .big {
+  justify-content: space-around;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
-  'one two small small';}
+  'one two small small';
+
+  padding: 2vw;
+  
+}
   .list {
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "home"
@@ -82,6 +99,9 @@ opacity: 0.8;
     ;}
 .text{
     margin-left: 10%;
+}
+.small{
+    column-gap: 5vw;
 }}
 
  
