@@ -1,3 +1,4 @@
+
 .Lettre1{
     color: #57C9EA;
     font-family: Arial, Helvetica, sans-serif;
@@ -15,3 +16,129 @@
   gap: 3vh;
   background-color: var(--color-bg);
 }
+
+
+.hero-main{
+
+  margin:0;
+  height:100%;
+  margin-bottom: -15vw;
+}
+
+.imag{
+  position: relative;
+  width: 100%;
+  height:100vh;
+  background-image: url('../../assets/novastore.png');
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+  margin: 0;
+}
+
+.imag::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg,  #050727eb, #050727af);;;
+}
+
+.hero-content{
+  position: relative;
+  width:100%;
+  height: 20%;
+  top:-45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:#F8f5ec ;
+
+}
+
+
+.hero-span{
+  color:#57c9ea;
+}
+.hero-h1{
+  font-size: 7vw;
+  padding-left: 5vw;
+  margin:0;
+  
+
+}
+
+.hero-p{
+  font-size: 3.1vw;
+  font-weight: 400;
+  padding-left: 5vw;
+  padding-right: 10vw;
+  margin:0;
+  
+}
+
+
+
+
+
+
+  @media (max-width: 1200px){
+    
+    .imag{
+      width:100%;
+      height:90vh;
+    }
+    
+  
+  }
+
+@media (max-width: 960px){
+  
+  .imag{
+    width:100%;
+    height:70vh;
+  }
+  .hero-content{
+    top:-25vh;
+  }
+
+}
+@media (max-width: 600px){
+ 
+  .imag{
+    width:100%;
+    height:45vh;
+  }
+  .hero-content{
+    top:-19vh;
+  }
+
+}
+
+@media (max-width: 480px){
+
+  .imag{
+    width:100%;
+    height:30vh;
+  }
+  .hero-content{
+    top:-15vh;
+  }
+
+}
+
+@media (max-width: 350px){
+
+  .imag{
+    width:100%;
+    height:20vh;
+  }
+  .hero-content{
+    top:-11vh;
+  }
+
+}
+
+

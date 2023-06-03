@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Lato-Black;
+    src: url(../../../police/Lato-Black.ttf);
+  }
+  @font-face {
+    font-family: Lato-LightItalic;
+    src: url(../../../police/Lato-LightItalic.ttf);
+  }
+  @font-face {
+    font-family: Lato-Bold;
+    src: url(../../../police/Lato-Bold.ttf);
+  }
+#cadre{
+    border: 0.1vw solid ;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+    margin:1vh;
+}
+#author-container{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+}
+#author{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0vh;
+    font-size: 1vw;
+}
+#firstColumn{
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+    
+    padding-left: 7vw;
+    padding-right: 7vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:1.5vw;
+
+    box-shadow: inset 2px 2px 20px  rgba(0, 0, 0, 0.2);
+}
+#noun{
+    font-size: 2vw;
+    font-weight: bold;
+    color: #57C9EA;
+}
+#title{
+    margin-left: 27%;
+    font-family: Lato-Bold;
+    font-size: 2.5vw; 
+}
+
+#image{
+    background:url('../../../assets/guy2edited7.jpg') no-repeat ;
+    background-size: cover;
+    height:auto;
+    width:60vw;
+}
+#text{
+    font-size: 1.8vw;
+    font-family: Lato-LightItalic;
+
+}
+#fondateur{
+    display: flex;
+    justify-content: center;
+}
+
+#color-fondateur{
+    background-image: url('../../../assets/title-background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    padding-bottom:1.5vw;
+   
+    
+}

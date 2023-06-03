@@ -1,0 +1,25 @@
+.image2{
+    width: 100%;
+    height: 100%;
+    border-radius:5% ;
+    
+}
+.image1{
+    border-radius: 5% 0% 0% 5% ;
+   width: 80%;
+}
+.image3{
+    border-radius: 0% 5% 5% 0% ;
+    width: 80%;
+   
+}
+.buttons{
+    height:20px;
+    width: 15px;
+}
+.back{
+    padding-top: 20px;
+    background-image: linear-gradient(to right,#F8F5EC,rgba(87, 202, 234,0.3),#F8F5EC);
+
+  border-radius: 4%;
+}
