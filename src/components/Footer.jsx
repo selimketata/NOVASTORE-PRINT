@@ -28,18 +28,24 @@ function Footer() {
           <h3>USEFUL LINKS</h3>
           <ul className="footer-ul">
             <li>
-              <a href="/">HOME</a>
+              <a className="footer-a" href="/">
+                HOME
+              </a>
             </li>
             <li>
-              <a href="/presentation" className="pres">
+              <a className="footer-a" href="/presentation">
                 PRESENTATION
               </a>
             </li>
             <li>
-              <a href="/services">SERVICES</a>
+              <a className="footer-a" href="/services">
+                SERVICES
+              </a>
             </li>
             <li>
-              <a href="/contacts">CONTACTS</a>
+              <a className="footer-a" href="/contacts">
+                CONTACTS
+              </a>
             </li>
           </ul>
         </div>
@@ -51,13 +57,13 @@ function Footer() {
             <span className="footer-span">NovaStore@gmail.com</span>
           </div>
           <div className="social">
-            <a href="">
+            <a className="footer-a" href="">
               <FaFacebookF size={"15px"} className="icones" />
             </a>
-            <a href="">
+            <a className="footer-a" href="">
               <BsInstagram size={"15px"} className="icones" />
             </a>
-            <a href="">
+            <a className="footer-a" href="">
               <BsMessenger size={"15px"} className="icones" />
             </a>
           </div>
@@ -68,12 +74,12 @@ function Footer() {
             <span className="footer-span">Soyer le premier a revecoir</span>
             <span className="footer-span">nos noveautés</span>
           </div>
-          <div className="email">
+          <div className="footer-email">
             <input type="email" placeholder="Entrez votre adresse email" />
             <button>
               <RiArrowRightSLine />
             </button>
-            <hr />
+            <hr className="footer-email-hr" />
           </div>
         </div>
       </div>

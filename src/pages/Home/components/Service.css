@@ -13,7 +13,7 @@
   .service-container span {
       color: #57C9EA;
   }
-   hr {
+   .service-hr {
       
           width: 35vw;
           margin: 0;
@@ -76,7 +76,7 @@
       
   }
   @media screen and (max-width: 1250px){
-    hr {
+    .service-hr {
       
         /* width: 27%; */
     }
@@ -92,7 +92,7 @@
   @media screen and (max-width: 988px){
    
     
-  hr {
+  .service-hr {
       
     /* width: 30%; */
     margin: 0;
@@ -110,7 +110,7 @@
   }
   }
   @media screen and (max-width: 788px){
-    hr {
+    .service-hr {
       
         /* width: 35%; */
     }
@@ -132,7 +132,7 @@
       /* font-size: 1.7rem; */
   
   }
-  hr {
+  .service-hr {
       
           /* width: 33%; */
           margin: 0;
@@ -157,7 +157,7 @@
      /* font-size: 1.4rem;
   */
  }
- hr {
+ .service-hr {
      
          /* width: 35%; */
          margin: 0;
@@ -189,7 +189,7 @@
       font-size: 0.6rem;
       
   }
-  hr {
+  .service-hr {
       
           /* width: 45%; */
           margin: 0;

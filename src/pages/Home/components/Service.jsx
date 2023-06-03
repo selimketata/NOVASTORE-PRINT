@@ -18,7 +18,7 @@ function Service() {
         {" "}
         <span>NOS</span> services{" "}
       </h1>
-      <hr />
+      <hr className="service-hr" />
       <div className="part">
         <div className="back-img" style={{ backgroundImage: `url(${Img2}` }}>
           <img src={Abri2} alt="FGHJK" />

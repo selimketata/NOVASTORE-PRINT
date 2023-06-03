@@ -64,7 +64,7 @@ top: 2px;
    list-style: none;
   
 }
-.lien .footer-ul a{
+.lien .footer-ul .footer-a{
     text-decoration: none;
     color: #707070;
     margin-left: -38px;
@@ -74,7 +74,7 @@ top: 2px;
     font-weight:lighter;
     
 }
-.lien .footer-ul a:hover{
+.lien .footer-ul .footer-a:hover{
     color: #57C9EA;
     transition: 0.3s ease-in-out;
 }
@@ -105,7 +105,7 @@ top: 2px;
     justify-content: center;
 }
 
-.social a{
+.social .footer-a{
   
  height: 25px;
  width: 25px;
@@ -129,7 +129,7 @@ top: 2px;
     color:#F8F5E6;
     font-weight: lighter;
 }
-.new .span ,.new .email{
+.new .span ,.new .footer-email{
     color: #878791;
 }
 .new .span{
@@ -142,7 +142,7 @@ top: 2px;
     font-weight:lighter;
     letter-spacing: 1px;
 }
-.new .email{
+.new .footer-email{
     margin-top: 10px;
     
 
@@ -171,14 +171,14 @@ top: 2px;
     top: 1px;
    
 }
-.email{
+.footer-email{
     padding-bottom: 5px;
     margin: 0px;
     border: none;
  
   
 }
-.email hr{
+.footer-email .footer-email-hr{
     width: 100%;
    
     border-bottom:1px solid #F8F5E6 ;
@@ -279,7 +279,7 @@ top: 2px;
          position: relative;
         top: -80px;
     }
-    .lien .footer-ul a{
+    .lien .footer-ul .footer-a{
         text-decoration: none;
         color: #F8F5E6;
        
@@ -356,7 +356,7 @@ top: 2px;
         top: -70px;
         
     }
-    .lien .footer-ul a{
+    .lien .footer-ul .footer-a{
         font-size:1rem;  
     }
     .footer-contact h3{
@@ -372,7 +372,7 @@ top: 2px;
   
 @media screen and (max-width: 600px){  
    
-    .lien .footer-ul a{
+    .lien .footer-ul .footer-a{
         font-size:0.9rem;  
     }
     .footer-contact h3{
@@ -409,12 +409,13 @@ top: 2px;
         top: -60px;
         
     }
-    .lien .footer-ul a{
+    .lien .footer-ul .footer-a{
         font-size:0.8rem; 
         border-bottom: 0.7px solid #F8F5E6; 
     }
-    .email hr {
+    .footer-email .footer-email-hr {
         width: 83%;
+        margin-left: 0vw;
         border-bottom: 1px solid #F8F5E6;
     }
     .new h3{
@@ -452,7 +453,7 @@ top: 2px;
         .new input::placeholder{
             font-size: 0.7rem;
         }
-        .new .email{
+        .new .footer-email{
             position: relative;
             left: 10px;
         }
@@ -484,10 +485,10 @@ top: 2px;
        
 
 @media screen and (max-width: 355px){
-    .social a .icones{
+    .social .footer-a .icones{
         size: 5px;
     }
-    .social a{
+    .social .footer-a{
   
         height: 23px;
         width: 23px;
@@ -510,7 +511,7 @@ top: 2px;
         top: -54px;
     }
     
-    .lien .footer-ul a{
+    .lien .footer-ul .footer-a{
         margin-top: 5px;
         font-size:0.6rem;
         padding-bottom: 3px;
@@ -548,7 +549,7 @@ top: 2px;
         position: relative;
         top: -15px;
     }
-    .email hr {
+    .footer-email .footer-email-hr {
         width: 64%;
         border-bottom: 1px solid #F8F5E6;
     }
@@ -561,11 +562,11 @@ top: 2px;
         
         }
        
-        .social a{
+        .social .footer-a{
            
             z-index: 100;
            }
-           .new .email{
+           .new .footer-email{
             position: relative;
            top: -10px;
             left: 15px;
@@ -607,7 +608,7 @@ top: 2px;
 @media screen and (max-width: 320px){
     
     
-    .lien .footer-ul a{
+    .lien .footer-ul .footer-a{
         margin-top: 5px;
         font-size:0.5rem;
         padding-bottom: 3px;
@@ -651,7 +652,7 @@ top: 2px;
         top: -15px;
         left: -20px;
     }
-    .email hr {
+    .footer-email .footer-email-hr {
         width: 54%;
         border-bottom: 1px solid #F8F5E6;
     }
@@ -664,11 +665,11 @@ top: 2px;
         
         }
        
-        .social a{
+        .social .footer-a{
            
             z-index: 100;
            }
-           .new .email{
+           .new .footer-email{
             position: relative;
            top: -10px;
             left: 15px;
@@ -717,7 +718,7 @@ top: 2px;
         position: relative;
         left: -10px;
     }
-    .lien .footer-ul a{
+    .lien .footer-ul .footer-a{
         margin-top: 5px;
         font-size:0.4rem;
        
@@ -750,7 +751,7 @@ top: 2px;
         text-align: center;
         color: #F8F5E6;
     }
-    .email hr {
+    .footer-email .footer-email-hr {
         width: 53%;
         border-bottom: 1px solid #F8F5E6;
         position: relative;
@@ -766,11 +767,11 @@ top: 2px;
         
         }
        
-        .social a{
+        .social .footer-a{
            
             z-index: 100;
            }
-           .new .email{
+           .new .footer-email{
             position: relative;
            top: -10px;
             left: 15px;
@@ -821,7 +822,7 @@ top: 2px;
         position: relative;
         left: -10px;
     }
-    .lien .footer-ul a{
+    .lien .footer-ul .footer-a{
         margin-top: 5px;
         font-size:0.4rem;
        
@@ -854,7 +855,7 @@ top: 2px;
         text-align: center;
         color: #F8F5E6;
     }
-    .email hr {
+    .footer-email .footer-email-hr {
         width: 58%;
         border-bottom: 1px solid #F8F5E6;
         position: relative;
@@ -869,11 +870,11 @@ top: 2px;
         
         }
        
-        .social a{
+        .social .footer-a{
            
             z-index: 100;
            }
-           .new .email{
+           .new .footer-email{
             position: relative;
            top: -10px;
             left: 15px;

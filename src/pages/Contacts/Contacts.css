@@ -1,8 +1,8 @@
-.footer{
+.contact{
     
     
 }
-.footer  h3{
+.contact  h3{
     letter-spacing: 2px;
     text-align: center;
     font-size: 2rem;
@@ -14,7 +14,7 @@ ul li{
     list-style: none;
     margin-top: 0.7em;
 }
-.footer a{ 
+.contact a{ 
     /* display: inline-block; */
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@ ul li{
     background-color: var(--color-bg-variant);
     padding: 10px;
 }
-.footer a:hover{
+.contact a:hover{
     color: grey;
     transition: 0.5s ease-in-out;
 }
@@ -55,7 +55,7 @@ ul li{
     body{
         font-size: 0.5em;
     }
-    .footer a{
+    .contact a{
         padding: 10px;
     }
     
