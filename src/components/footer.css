@@ -1,7 +1,87 @@
 .big{
     background-color: #050727;
     color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-around;
+    padding-top: 10px; ;
+}
+.small{
+    grid-area: small;
     display: flex;
     justify-content: space-around;
-    padding-top: 20px; ;
 }
+.one{
+    grid-area: one ;
+
+}
+.text{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.two{grid-area: two ;}
+.home{grid-area: home ;}
+.presentation{grid-area: presentation ;} 
+.contact {grid-area: contact ;}
+.serviecs{grid-area: services ;} 
+.list{
+ display: grid;
+    grid-template-columns: 1fr;
+}
+.icons{
+    
+    color: #ffffff;
+}
+.links{
+    color: white;
+    
+    height:20px;
+}
+.links:hover{
+
+opacity: 0.8;
+}
+
+
+ @media screen and (max-width: 599px) {
+ .big {
+  text-align: center;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "one"
+  "two"
+  "small";
+  align-items: center;
+  
+ }
+ .list {
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    'home presentation services contact';
+    align-items: center;
+   
+  }
+  .text{
+    margin-left: 42%;
+    display: flex;
+   
+  }
+ }
+
+ @media screen and (min-width: 600px) {
+ .big {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+  'one two small small';}
+  .list {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "home"
+    "presentation"
+    "services"
+    "contact"
+    ;}
+.text{
+    margin-left: 10%;
+}}
+
+ 
