@@ -1,5 +1,5 @@
 import React from "react";
-import Cadre from "./fondateur/fondateur"
+import Fondateur from "./fondateur/lesFondateurs"
 import "./Presentation.css";
 
 
@@ -9,7 +9,7 @@ import "./chiffre/chiffre.css";
 function Presenation() {
   return <div id="presentation">
     <NosChiffre />
-    <Cadre />
+    <Fondateur />
     
   </div>;
 
