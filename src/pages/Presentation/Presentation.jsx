@@ -1,25 +1,13 @@
-import React from "react";
-import Cadre from "./fondateur/fondateur";
-import Fondateur from "./fondateur/lesFondateurs";
 
-import "./Presentation.css";
+import P2 from './clients/P2';
 
-import NosChiffre from "./chiffre/NosChiffre";
-import "./chiffre/chiffre.css";
-
-import Video from "../../components/Video";
-function Presenation() {
+function Presentation() {
   return (
-    <>
-      <div className="main">
-        <Video />
-      </div>
-      <div id="presentation">
-        <NosChiffre />
-        <Fondateur />
-      </div>
-    </>
+    <div className="App">
+    <P2/>
+    </div>
   );
 }
 
-export default Presenation;
+export default Presentation;
+
