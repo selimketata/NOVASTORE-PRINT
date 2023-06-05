@@ -4,7 +4,7 @@ import "./NosChiffres.css";
 
 function NosChiffres() {
   return (
-    <div id="content">
+    <div id="chiffre-content">
       {/* <div id="test"></div> */}
       <div id="titleChiffre">
         <span id="a-chiffre">N</span>

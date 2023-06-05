@@ -77,8 +77,8 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="backToTop">
-        <button onClick={top}>
+      <div className="backToTop" style={{ cursor: "pointer" }} onClick={top}>
+        <button>
           <SlArrowUp />
         </button>{" "}
         BACK TO TOP

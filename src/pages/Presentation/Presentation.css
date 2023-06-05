@@ -18,3 +18,20 @@
     
   }
 
+.slick-next{
+  position:relative;
+}
+.slick-arrow .slick-next{
+  display: none;
+}
+.slick-dots{
+  position: relative;
+  margin-bottom: 3vw;
+    bottom: 0px;
+}
+.slick-dots> li >button::before{
+  font-size: max(1vw,8px) !important;
+}
+button.slick-arrow.slick-next{
+  display: none !important;
+}

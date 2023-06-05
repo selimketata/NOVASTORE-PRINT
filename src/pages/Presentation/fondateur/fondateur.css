@@ -11,11 +11,12 @@
     src: url(../../../police/Lato-Bold.ttf);
   }
 #cadre{
-    border: 0.1vw solid ;
     display: flex;
     flex-direction:row ;
     justify-content: space-around;
-    margin:1vh;
+    margin:2vw;
+    margin-top: 3vw;
+    box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.2);
 }
 #author-container{
     display: flex;
@@ -41,14 +42,13 @@
     justify-content: space-between;
     gap:1.5vw;
 
-    box-shadow: inset 2px 2px 20px  rgba(0, 0, 0, 0.2);
 }
 #noun{
     font-size: 2vw;
     font-weight: bold;
     color: #57C9EA;
 }
-#title{
+#fondateur-title{
     margin-left: 27%;
     font-family: Lato-Bold;
     font-size: 2.5vw; 
@@ -60,7 +60,7 @@
     height:auto;
     width:60vw;
 }
-#text{
+#fondateur-text{
     font-size: 1.8vw;
     font-family: Lato-LightItalic;
     max-width: 50vw;
