@@ -8,24 +8,24 @@
 }
 
 .chiffre{
-    background: linear-gradient(rgb(85, 190, 247) ,#ffff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-    font-size: 6vw;
-    font-family: Lato-Black;
+  background: linear-gradient(rgb(85, 190, 247) ,#ffff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  font-size: 6vw;
+  font-family: Lato-Black;
 }
 #chiffreContent{
-  max-width: 15vw;
-  max-height: 15vh;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+max-width: 15vw;
+max-height: 15vh;
+display: flex;
+align-items: center;
+flex-direction: column;
 
 }
 #label{
-  background-color: rgba(255, 255, 255, 0.089) ;
-  font-family: Lato-BoldItalic;
-  font-size: 1.3vw;
-  color:#050727d6 ;
-  z-index: ;
+background-color: rgba(255, 255, 255, 0.089) ;
+font-family: Lato-BoldItalic;
+font-size: 1.3vw;
+color:#050727d6 ;
+
 }
