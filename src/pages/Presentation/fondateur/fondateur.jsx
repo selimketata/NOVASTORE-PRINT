@@ -1,6 +1,7 @@
 import React from 'react';
 import "./fondateur.css";
-function Cadre(){
+
+function Cadre(props){
     
     return(
         <div id="fondateur">
@@ -11,13 +12,13 @@ function Cadre(){
                             <span>Notr</span><span id="color-fondateur">e Fo</span><span>ndateur</span>
                         </div>
                         <div id="text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Etiam ornare  ac tortor</p>
+                            <p>{props.text}</p>
                              
                         </div>
                         <div id="author-container">
                         < div id="author" >
-                            <div id="noun">Sami M.</div>
-                            <div>-Novastore Manager-</div>
+                            <div id="noun">{props.name}</div>
+                            <div>{props.status}</div>
                         </div>
                         </div>
                         </div>
