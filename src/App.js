@@ -1,15 +1,15 @@
 import Home from "./pages/Home/Home";
-import Contacts from "./pages/Contacts/Contacts";
+import { Contacts } from "./pages/Contacts/Contacts";
 import Presentation from "./pages/Presentation/Presentation";
 import Services from "./pages/Services/Services";
-import Footer from "./components/Footer";
+import NavBar from "./components/NavBar/NavBar";
+import { Routes, Route } from "react-router-dom";
 
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      {/* <NavBar /> */}
-
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contacts" element={<Contacts />} />
@@ -17,7 +17,6 @@ function App() {
         <Route path="/presentation" element={<Presentation />} />
         <Route path="*" element={<div>404 not found</div>} />
       </Routes>
-
       <Footer />
     </>
   );

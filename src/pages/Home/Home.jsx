@@ -1,5 +1,8 @@
 import React from "react";
 import "./Home.css";
+import { Apropos } from "./Apropos/Apropos";
+import { Partenaires } from "./Partenaires/Partenaires";
+
 import Service from "./components/Service";
 import HomeImage from "../../components/HomeImage";
 function Home() {
@@ -19,6 +22,10 @@ function Home() {
         </div>
       </div>
       <Service />
+      <div className="home">
+        <Apropos />
+        <Partenaires />
+      </div>
     </>
   );
 }

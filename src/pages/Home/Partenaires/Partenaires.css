@@ -1,0 +1,53 @@
+/* .Partenaire-title{
+  margin-left: 2em;
+  border-bottom: 2px solid black; 
+  
+  margin-bottom: 20px; 
+  text-align: right;
+}   */
+.partenaire-container {
+  display: flex; 
+  justify-content: flex-end; 
+  
+}
+
+.Partenaire-title {
+  padding-right: 1vw;
+  margin-left: 0.5em;
+  border-bottom: 0.4vw solid black;
+  width: 45%;
+  margin-bottom: 20px;
+  text-align: right;
+  font-size: 1.5vw
+}
+
+ 
+
+/* #trait2{
+  border: 0.1em solid black;
+  width: 30%;
+  margin: 0;
+  position: absolute;
+
+} */
+.container{ 
+  
+    background-color: var(--color-bg);  
+  }
+.image{
+  background-color: var(--color-bg);
+}
+.partenaire-container{
+  background-color: var(--color-bg);
+ 
+}
+/* @media screen and (max-width:780px) {
+  .Partenaire-title {
+    margin-left: 0.5em;
+    border-bottom: 3px solid black;
+    width: 45%;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 1em;
+  }
+} */

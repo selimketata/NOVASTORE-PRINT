@@ -1,4 +1,23 @@
 
+.Lettre1{
+    color: #57C9EA;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;}
+   
+.titre{
+    color: #050727;
+    font-size: 2.5em;
+    font-weight: bold;   
+}
+.home{
+    display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  background-color: var(--color-bg);
+}
+
+
 .hero-main{
 
   margin:0;
@@ -9,7 +28,7 @@
 .imag{
   position: relative;
   width: 100%;
-  height:100vh;
+  height:87vh;
   background-image: url('../../assets/novastore.png');
   background-size:cover;
   background-position:center center;
