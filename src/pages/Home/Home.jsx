@@ -7,7 +7,7 @@ import Service from "./components/Service";
 import HomeImage from "../../components/HomeImage";
 function Home() {
   return (
-    <>
+    <div className="home-container">
       <div className="hero-main">
         <HomeImage />
 
@@ -26,7 +26,7 @@ function Home() {
         <Apropos />
         <Partenaires />
       </div>
-    </>
+    </div>
   );
 }
 
