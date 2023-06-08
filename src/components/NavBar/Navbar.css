@@ -3,11 +3,12 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   box-shadow: inset 0.5px 0.5px 5px  rgba(0, 0, 0, 0.24) ;
+   box-shadow: 0px 5px 20px  rgba(0, 0, 0, 0.24) ;
    position:sticky;
    top:0;
    z-index: 10;
-   
+   height:7.5vw;
+
 }
 
 nav{
@@ -16,6 +17,7 @@ nav{
 .logo{
     height: auto;
     width: 8vw;
+    padding-top: 1vw;
     
 }
 .logo-container{
@@ -63,7 +65,6 @@ nav{
 .Nav-btn{
     display: none;
 }
-
 
 @media screen and (max-width:780px) {
     .Nav-container{
@@ -139,6 +140,9 @@ nav{
         margin-right: 7vw;
     }
     
+}
+.current-page{
+    color:var(--color-light)
 }
 /* @media screen and (max-width:600px) {
     .logo-container-title{

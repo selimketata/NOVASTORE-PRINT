@@ -16,6 +16,7 @@
     justify-content: space-around;
     margin:2vw;
     margin-top: 3vw;
+    background-color: #F8F5EC;
     box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.2);
 }
 #author-container{

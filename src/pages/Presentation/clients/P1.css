@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300&display=swap');
 
 body{
-    background-color: #F8F5EC ;
+    background-color: white ;
 }
 .avis-container {
     margin-top: 5%;
@@ -17,6 +17,7 @@ body{
   width: 6vw;
 }
 .child1{
+  background-color: #F8F5EC;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

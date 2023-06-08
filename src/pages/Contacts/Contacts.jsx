@@ -24,7 +24,7 @@ export function Contacts() {
           <li>
             <CallIcon />
           </li>
-          <li>Phone</li>
+          <li>Téléphone</li>
           <li>+216 95 655 645</li>
         </ul>
         <ul></ul>
@@ -39,7 +39,7 @@ export function Contacts() {
           <li>
             <MailIcon />
           </li>
-          <li>Mail</li>
+          <li>Email</li>
           <li>novastoreprint@gmail.com</li>
         </ul>
       </div>
