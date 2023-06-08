@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
 import { Apropos } from "./Apropos/Apropos";
 import { Partenaires } from "./Partenaires/Partenaires";
@@ -6,6 +6,7 @@ import { Partenaires } from "./Partenaires/Partenaires";
 import Service from "./components/Service";
 import HomeImage from "../../components/HomeImage";
 function Home() {
+  useEffect(() => window.scrollTo(0, 0), []);
   return (
     <div className="home-container">
       <div className="hero-main">
