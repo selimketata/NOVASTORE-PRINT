@@ -75,14 +75,17 @@ function NavBar() {
                   <HoverElement2
                     image_url={require("../../assets/Img2.png")}
                     text="Store & Abri"
+                    dest="section1"
                   />
                   <HoverElement2
                     image_url={require("../../assets/Img3.png")}
                     text="Impression Numérique"
+                    dest="section2"
                   />
                   <HoverElement2
                     image_url={require("../../assets/Img1.png")}
                     text="PLV"
+                    dest="section3"
                   />
                 </div>
               </div>

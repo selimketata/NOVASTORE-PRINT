@@ -13,7 +13,7 @@ function Services() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    const navbarHeight = (window.innerHeight * 15) / 100;
+    const navbarHeight = (window.innerHeight * 12) / 100;
     if (window.location.hash === "#section1") {
       window.scrollTo({
         top: section1Ref.current.offsetTop - navbarHeight,

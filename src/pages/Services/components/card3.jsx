@@ -36,7 +36,7 @@ function Card3() {
   return (
     <Box>
       <Card>
-        <div className="back">
+        <div>
           <CardContent sx={{ textAlign: "center" }}>
             <TextBox>
               <StyledText variant="h3">

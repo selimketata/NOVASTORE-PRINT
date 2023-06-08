@@ -1,8 +1,16 @@
 import React from "react";
 import "./HoverElement2.css";
-function HoverElement2({ image_url, text }) {
+import { useNavigate } from "react-router";
+function HoverElement2({ image_url, text, dest }) {
+  let navigate = useNavigate();
   return (
-    <div className="hover-service">
+    <div
+      className="hover-service"
+      onClick={(e) => {
+        e.stopPropagation();
+        navigate(`/services#${dest}`);
+      }}
+    >
       <div
         className="hover-service-image"
         style={{ backgroundImage: `url(${image_url})` }}
