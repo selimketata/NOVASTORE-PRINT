@@ -30,12 +30,14 @@
       
   }
   .back-img {
+    cursor: pointer;
       background-Size: cover;
       background-Position: center;
        width: 31%;
        aspect-ratio: 56/68;
       display: flex;
       flex-direction: column;
+      gap:0.5vw;
       justify-content: center;
       align-items: center;
       position: relative; 

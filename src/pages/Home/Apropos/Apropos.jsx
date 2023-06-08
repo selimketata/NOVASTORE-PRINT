@@ -3,7 +3,9 @@ import "./Apropos.css";
 import img from "./img.jpg";
 import ArrowForwardSharpIcon from "@mui/icons-material/ArrowForwardSharp";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { useNavigate } from "react-router";
 export const Apropos = () => {
+  let navigate = useNavigate();
   return (
     <section className="Apropos-title" id="Presentation">
       <span className="Apropos-title">
@@ -24,7 +26,7 @@ export const Apropos = () => {
             Libero aliquid odit maxime? Placeat perspiciatis cum numquam
             similique!
           </p>
-          <div className="btn">
+          <div className="btn" onClick={() => navigate("/presentation#video")}>
             <button className="vid-btn">
               Voir Video <AiOutlineArrowRight className="icon" />
             </button>
