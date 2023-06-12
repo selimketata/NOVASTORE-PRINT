@@ -16,9 +16,14 @@ const StyledContent = Styled(CardContent)({
 });
 const StyledText = Styled(Typography)({
   fontWeight: "bolder",
-  fontSize: "60px",
+  fontSize: "5.75vw",
   display: "inline",
   textOverflow: "ellipsis",
+  paddingBlock: "6vw",
+});
+const StyledSub = Styled(Typography)({
+  fontSize: "2vw",
+  paddingInline: "10vw",
 });
 const TextBox = Styled(Box)({ margin: "15px" });
 const StyledBox = Styled(Box)({
@@ -50,10 +55,10 @@ function Card1() {
                 Abris
               </StyledText>
             </TextBox>
-            <Typography sx={{ marginBottom: "20px" }} variant="subtitle1">
+            <StyledSub sx={{ marginBottom: "20px" }} variant="subtitle1">
               Azert fhjir bjheyt rety byby bsjkkz o ksdn onuroaz ch djdjd ppzhdo
               koijhgboistulier maids il najamais fait ca.
-            </Typography>
+            </StyledSub>
 
             <StyledContent>
               <Button onClick={clicked} variant="contianed">
