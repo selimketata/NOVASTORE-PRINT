@@ -9,11 +9,11 @@ import after from "../photos/after.png";
 import "./cards.css";
 
 const StyledContent = Styled(CardContent)({
-  marginTop: "30px",
+  marginTop: "2vw",
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  marginBottom: "20px",
+  marginBottom: "1vw",
 });
 const StyledText = Styled(Typography)({
   fontWeight: "bolder",

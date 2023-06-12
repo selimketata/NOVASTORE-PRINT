@@ -8,11 +8,11 @@ import before from "../photos/before.png";
 import after from "../photos/after.png";
 import "./cards.css";
 const StyledContent = Styled(CardContent)({
-  marginTop: "30px",
+  marginTop: "2vw",
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  marginBottom: "20px",
+  marginBottom: "1vw",
 });
 const StyledText = Styled(Typography)({
   fontWeight: "bolder",
@@ -25,7 +25,7 @@ const StyledSub = Styled(Typography)({
   fontSize: "2vw",
   paddingInline: "10vw",
 });
-const TextBox = Styled(Box)({ margin: "15px" });
+const TextBox = Styled(Box)({ margin: ".75vw" });
 const StyledBox = Styled(Box)({
   display: "flex",
   alignItems: "center",

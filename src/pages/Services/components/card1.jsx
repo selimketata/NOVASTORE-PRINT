@@ -8,11 +8,11 @@ import before from "../photos/before.png";
 import after from "../photos/after.png";
 import "./cards.css";
 const StyledContent = Styled(CardContent)({
-  marginTop: "30px",
+  marginTop: "2vw",
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  marginBottom: "20px",
+  marginBottom: "1vw",
 });
 const StyledText = Styled(Typography)({
   fontWeight: "bolder",
@@ -55,7 +55,7 @@ function Card1() {
                 Abris
               </StyledText>
             </TextBox>
-            <StyledSub sx={{ marginBottom: "20px" }} variant="subtitle1">
+            <StyledSub sx={{ marginBottom: "1vw" }} variant="subtitle1">
               Azert fhjir bjheyt rety byby bsjkkz o ksdn onuroaz ch djdjd ppzhdo
               koijhgboistulier maids il najamais fait ca.
             </StyledSub>
