@@ -3,9 +3,9 @@ import "./Contacts.css";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
-import CallIcon from "@mui/icons-material/Call";
-import MailIcon from "@mui/icons-material/Mail";
-import AddLocationIcon from "@mui/icons-material/AddLocation";
+import CallIcon from "@mui/icons-material/CallOutlined";
+import MailIcon from "@mui/icons-material/MailOutlined";
+import AddLocationIcon from "@mui/icons-material/AddLocationOutlined";
 
 export function Contacts() {
   return (
@@ -22,22 +22,21 @@ export function Contacts() {
       <div className="contact-container">
         <ul>
           <li>
-            <CallIcon />
+            <CallIcon sx={{ fontSize: "3vw" }} />
           </li>
           <li>Téléphone</li>
           <li>+216 95 655 645</li>
         </ul>
-        <ul></ul>
         <ul>
           <li>
-            <AddLocationIcon />
+            <AddLocationIcon sx={{ fontSize: "3vw" }} />
           </li>
           <li>Adresse</li>
           <li>51600 Tunis,Tunisia</li>
         </ul>
         <ul>
           <li>
-            <MailIcon />
+            <MailIcon sx={{ fontSize: "3vw" }} />
           </li>
           <li>Email</li>
           <li>novastoreprint@gmail.com</li>
