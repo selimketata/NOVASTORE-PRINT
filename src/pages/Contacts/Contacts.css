@@ -10,7 +10,7 @@
     font-weight: lighter;
 }
 
-ul li{
+.contact-container ul li{
     list-style: none;
     margin-top: 0.7em;
     font-size: 1vw;
@@ -59,7 +59,7 @@ ul li{
     justify-content: center;
 
 }
-ul li:nth-child(2){
+.contact-container ul li:nth-child(2){
     font-weight: bold;
     font-size: 1.75vw;
 }
