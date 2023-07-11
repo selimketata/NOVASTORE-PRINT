@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import "./Home.css";
 import { Apropos } from "./Apropos/Apropos";
 import { Partenaires } from "./Partenaires/Partenaires";
-
 import Service from "./components/Service";
 import HomeImage from "../../components/HomeImage";
 function Home() {
@@ -18,7 +17,7 @@ function Home() {
           </h1>
           <p className="hero-p">
             <span className="hero-span">Leader</span> de la fabrication des
-            stores et abris, les impressions numériques et les PLV.
+            stores & abris, les impressions numériques & habillage et revêtement de façade.
           </p>
         </div>
       </div>

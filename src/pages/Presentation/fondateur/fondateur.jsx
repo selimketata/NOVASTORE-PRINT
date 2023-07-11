@@ -7,9 +7,9 @@ function Cadre(props) {
       <div id="cadre">
         <div id="firstColumn">
           <div id="fondateur-title">
-            <span>Notr</span>
-            <span id="color-fondateur">e Fo</span>
-            <span>ndateur</span>
+            <span>No</span>
+            <span id="color-fondateur">s Fo</span>
+            <span>ndateurs</span>
           </div>
           <div id="fondateur-text">
             <p>{props.text}</p>

@@ -4,6 +4,7 @@ import img1 from "./img1.jpg";
 import img2 from "./img2.jpg";
 import img3 from "./img3.jpg";
 import img4 from "./img4.jpg";
+import img5 from "./img5.jpg";
 import "./Partenaires.css";
 
 export const Partenaires = () => {
@@ -16,7 +17,7 @@ export const Partenaires = () => {
         </div>
       </div>
 
-      <Imageslider Images={[img1, img2, img3]} />
+      <Imageslider Images={[img1, img3, img5, img4, img2]} />
     </div>
   );
 };

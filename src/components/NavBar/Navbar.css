@@ -16,8 +16,9 @@ nav{
 }
 .logo{
     height: auto;
-    width: 8vw;
-    padding-top: 1vw;
+    width: 12vw;
+    margin-left: 3vw;
+    margin-top: 2.5vh;
     
 }
 .logo-container{

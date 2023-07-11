@@ -16,21 +16,24 @@
 .hover-container {
     display: flex;
     align-items: center;
-    gap: 1vw;
+    gap: 5vw;
 }
 .hover-service{
-    width:30vw;
+    width:25vw;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    gap:3vw;
+    gap:1.5vw;
     color: black;
 
+}
+.hover-service-text{
+    font-size: 22px;
 }
 .hover-service-image{
     height: 8vw;
     width: 6.4vw;
-    background-size: 6.4vw;
+    /* background-size: 2vw; */
 }
 
 .nav-service {

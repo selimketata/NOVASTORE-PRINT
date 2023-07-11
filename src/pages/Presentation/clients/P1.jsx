@@ -12,7 +12,7 @@ export default function P1(props) {
         </span>{" "}
         <span>
           {" "}
-          <h1 id="color">t De</h1>
+          <h1 id="color">t De </h1>
         </span>
         <span>
           {" "}

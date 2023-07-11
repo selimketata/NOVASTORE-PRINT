@@ -1,16 +1,17 @@
-import React from "react";
-import logo from "./logo.png";
+import React, { useState, useEffect } from "react";
+import logo from "./Logoo.png";
 import "./Navbar.css";
-import { useState } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
 import DehazeIcon from "@mui/icons-material/Dehaze";
-import { useNavigate } from "react-router-dom";
 import HoverElement2 from "./HoverElement2";
 
 function NavBar() {
   const [isMobile, setIsMobile] = useState(false);
-  let navigate = useNavigate();
+  const navigate = useNavigate();
+  const location = useLocation();
   const [isHovered, setIsHovered] = useState(false);
   const [currentPage, setCurrentPage] = useState("home");
+
   const handleMouseEnter = () => {
     setIsHovered(true);
   };
@@ -19,102 +20,97 @@ function NavBar() {
     setIsHovered(false);
   };
 
+  useEffect(() => {
+    localStorage.setItem("current", currentPage);
+  }, [currentPage]);
+
+  useEffect(() => {
+    const currentPath = location.pathname;
+    setCurrentPage(getPageNameFromPath(currentPath));
+  }, [location]);
+
+  const getPageNameFromPath = (path) => {
+    
+    const pageName = path.substring(1);
+    return pageName || "home";
+  };
+
   return (
-    <>
-      <nav className="Nav-container">
-        <div className="logo-container">
-          <img className="logo" src={logo} alt="" />
-          <div className="logo-container-title">
-            <span className="mot1">NovaStore </span>
-            <span className="mot2">Print </span>
-          </div>
+    <nav className="Nav-container">
+      <img className="logo" src={logo} alt="" />
+      <div
+        className={isMobile ? "Nav-elements-mobile" : "Nav-elements"}
+        onClick={() => setIsMobile(false)}
+      >
+        <div
+          className={`nav ${currentPage === "home" ? "current-page" : ""}`}
+          onClick={() => {
+            navigate("/");
+            setCurrentPage("home");
+          }}
+        >
+          Home{" "}
         </div>
         <div
-          className={isMobile ? "Nav-elements-mobile" : "Nav-elements"}
-          onClick={() => setIsMobile(false)}
+          className={`nav nav-pres ${currentPage === "presentation" ? "current-page" : ""}`}
+          onClick={() => {
+            navigate("/presentation");
+            setCurrentPage("presentation");
+          }}
         >
-          <div
-            className={currentPage === "home" ? "nav current-page" : "nav"}
-            onClick={() => {
-              navigate("/");
-              setCurrentPage("home");
-            }}
-          >
-            Home{" "}
-          </div>
-          <div
-            className={
-              currentPage === "pres"
-                ? "nav nav-pres current-page"
-                : "nav nav-pres "
-            }
-            onClick={() => {
-              navigate("/presentation");
-              setCurrentPage("pres");
-            }}
-          >
-            Présentation
-          </div>
-          <div
-            className={
-              currentPage === "service"
-                ? "nav current-page nav-service"
-                : "nav nav-service"
-            }
-            onClick={() => {
-              navigate("/services");
-              setCurrentPage("service");
-            }}
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-          >
-            Services
-            {isHovered && (
-              <div className="nav-hover">
-                <div className="hover-container">
-                  <HoverElement2
-                    image_url={require("../../assets/Img2.png")}
-                    text="Store & Abri"
-                    dest="section1"
-                  />
-                  <HoverElement2
-                    image_url={require("../../assets/Img3.png")}
-                    text="Impression Numérique"
-                    dest="section2"
-                  />
-                  <HoverElement2
-                    image_url={require("../../assets/Img1.png")}
-                    text="PLV"
-                    dest="section3"
-                  />
-                </div>
-              </div>
-            )}
-          </div>
-          <div
-            className={
-              currentPage === "contact"
-                ? "nav current-page nav-contact"
-                : "nav nav-contact"
-            }
-            onClick={() => {
-              navigate("/contacts");
-              setCurrentPage("contact");
-            }}
-          >
-            Contact
-          </div>
+          Présentation
         </div>
+        <div
+          className={`nav nav-service ${currentPage === "services" ? "current-page" : ""}`}
+          onClick={() => {
+            navigate("/services");
+            setCurrentPage("services");
+          }}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          Services
+          {isHovered && (
+            <div className="nav-hover">
+              <div className="hover-container">
+                <HoverElement2
+                  image_url={require("../../assets/Img2.png")}
+                  text="Stores & Abris"
+                  dest="section1"
+                />
+                <HoverElement2
+                  image_url={require("../../assets/Img3.png")}
+                  text="Impression Numérique & Habillage"
+                  dest="section2"
+                />
+                <HoverElement2
+                  image_url={require("../../assets/Img1.jpg")}
+                  text="Revêtement De Façade"
+                  dest="section3"
+                />
+              </div>
+            </div>
+          )}
+        </div>
+        <div
+          className={`nav nav-contact ${currentPage === "contacts" ? "current-page" : ""}`}
+          onClick={() => {
+            navigate("/contacts");
+            setCurrentPage("contacts");
+          }}
+        >
+          Contact
+        </div>
+      </div>
 
-        <button className="Nav-btn" onClick={() => setIsMobile(!isMobile)}>
-          <DehazeIcon
-            sx={{
-              fontSize: "7vw",
-            }}
-          />
-        </button>
-      </nav>
-    </>
+      <button className="Nav-btn" onClick={() => setIsMobile(!isMobile)}>
+        <DehazeIcon
+          sx={{
+            fontSize: "7vw",
+          }}
+        />
+      </button>
+    </nav>
   );
 }
 

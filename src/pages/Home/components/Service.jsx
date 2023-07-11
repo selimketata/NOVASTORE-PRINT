@@ -3,10 +3,12 @@ import "./Service.css";
 import Abri2 from "../../../assets/abri2.png";
 import imp2 from "../../../assets/imp2.png";
 import plv2 from "../../../assets/plv2.png";
-import Img1 from "../../../assets/Img1.png";
+import Img1 from "../../../assets/Img1.jpg";
 import Img2 from "../../../assets/Img2.png";
 import Img3 from "../../../assets/Img3.png";
 import { useNavigate } from "react-router";
+
+
 
 function Service() {
   const [hover, setHover] = useState(false);
@@ -24,10 +26,13 @@ function Service() {
         <div
           className="back-img"
           style={{ backgroundImage: `url(${Img2}` }}
-          onClick={() => navigate("/services#section1")}
+          onClick={() => {
+            navigate("/services#section1")
+          }
+          }
         >
           <img src={Abri2} alt="FGHJK" />
-          <p>Store & Abri</p>
+          <p>Stores & Abris</p>
         </div>
 
         <div
@@ -36,18 +41,18 @@ function Service() {
           onClick={() => navigate("/services#section2")}
         >
           <img src={imp2} alt="FGHJK" />
-          <p>
-            Impression <br /> Numérique
+          <p className="texttt">
+            Impression Numérique <br /> & Habillage
           </p>
         </div>
 
         <div
           className="back-img"
           style={{ backgroundImage: `url(${Img1}` }}
-          onClick={() => navigate("/services#section3")}
+           onClick={() => navigate("/services#section3")}
         >
           <img src={plv2} alt="FGHJK" />
-          <p>PLV</p>
+          <p>Revêtement de façade</p>
         </div>
       </div>
     </div>

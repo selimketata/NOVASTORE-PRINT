@@ -2,6 +2,9 @@
     width: 100%;
     font-family: Bahnschrift;
   }
+.texttt{
+    text-align: center;
+}
   .service-container h1{
       color: black;
       margin-left: 20px;
@@ -78,10 +81,10 @@
       
   }
   @media screen and (max-width: 1250px){
-    .service-hr {
+    /* .service-hr {
       
-        /* width: 27%; */
-    }
+     width: 27%; 
+    } */
     .service-container h1{
         color: black;
         margin-left: 20px;
@@ -112,10 +115,10 @@
   }
   }
   @media screen and (max-width: 788px){
-    .service-hr {
+    /* .service-hr {
       
-        /* width: 35%; */
-    }
+         width: 35%; 
+    } */
     .service-container h1{
         color: black;
         margin-left: 20px;

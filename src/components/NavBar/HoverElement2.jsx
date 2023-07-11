@@ -11,10 +11,11 @@ function HoverElement2({ image_url, text, dest }) {
         navigate(`/services#${dest}`);
       }}
     >
-      <div
+      {/* <div
         className="hover-service-image"
         style={{ backgroundImage: `url(${image_url})` }}
-      ></div>
+      ></div> */}
+      <img className="hover-service-image" src={image_url}/>
       <div className="hover-service-text">{text}</div>
     </div>
   );

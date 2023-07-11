@@ -242,6 +242,7 @@ hr.light {
       font-family: 'lato Black', sans-serif;
       font-weight: bolder;
       margin-block:0 ;
+      margin-left: 10px;
     }
   
   /* @media screen and (max-width: 1180px) {

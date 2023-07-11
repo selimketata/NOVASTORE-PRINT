@@ -47,17 +47,17 @@ function Card3() {
             <TextBox>
               <StyledText variant="h3">
                 <StyledText variant="h3" sx={{ color: "#57C9EA" }}>
-                  P
+                  R
                 </StyledText>
-                ublicité sur{" "}
+                evêtement{" "}
                 <StyledText variant="h3" sx={{ color: "#57C9EA" }}>
-                  L
+                  D
                 </StyledText>
-                ieux de{" "}
+                e{" "}
                 <StyledText variant="h3" sx={{ color: "#57C9EA" }}>
-                  V
+                  F
                 </StyledText>
-                ente
+                açade
               </StyledText>
               <br />
             </TextBox>

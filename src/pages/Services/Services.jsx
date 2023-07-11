@@ -7,6 +7,7 @@ import Card2 from "./components/card2";
 import Card3 from "./components/card3";
 
 function Services() {
+  localStorage.setItem("current", "service");
   const section1Ref = useRef(null);
   const section2Ref = useRef(null);
   const section3Ref = useRef(null);
@@ -30,7 +31,7 @@ function Services() {
         behavior: "smooth",
       });
     }
-  }, []);
+  }, [section1Ref,section2Ref,section3Ref]);
   return (
     <Box>
       <div ref={section1Ref}>

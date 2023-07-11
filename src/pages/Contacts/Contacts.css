@@ -1,13 +1,22 @@
-.contact{
-    
-    
-}
+
 .contact  h3{
     letter-spacing: 2px;
     text-align: center;
     font-size: 2rem;
     margin: 20px;
     font-weight: lighter;
+}
+.map{
+    width: 100%;
+    height:400px; 
+    overflow: hidden;
+}
+.mapp{
+    width: 100%;
+    height: 400px;
+}
+.contact-container{
+    padding-bottom: 4vh;
 }
 
 .contact-container ul li{

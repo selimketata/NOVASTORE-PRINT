@@ -47,7 +47,7 @@ function Card1() {
           <CardContent sx={{ textAlign: "center" }}>
             <TextBox>
               <StyledText variant="p">
-                Store
+                Stores
                 <StyledText variant="h3" sx={{ color: "#57C9EA" }}>
                   {" "}
                   &{" "}

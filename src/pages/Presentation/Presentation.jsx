@@ -5,6 +5,10 @@ import Fondateur from "./fondateur/lesFondateurs";
 import Video from "../../components/Video";
 import "./Presentation.css";
 function Presentation() {
+  
+  localStorage.setItem("current","pres")
+  
+
   return (
     <>
       <div className="main">

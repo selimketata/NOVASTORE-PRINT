@@ -12,10 +12,7 @@ export function Contacts() {
     <div className="contact">
       <div className="map">
         <iframe
-          style={{
-            width: "100%",
-            height: "400px",
-          }}
+          className="mapp"
           src="https://www.google.com/maps/embed/v1/place?q=ENSI,+Manouba,+Tunisia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
         ></iframe>
       </div>
@@ -42,23 +39,8 @@ export function Contacts() {
           <li>novastoreprint@gmail.com</li>
         </ul>
       </div>
-      <ul className="contact-icons">
-        <li>
-          <a href="">
-            <AiOutlineInstagram style={{ fontSize: "35px" }} />
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <FaFacebookF style={{ fontSize: "35px" }} />
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <BsTwitter style={{ fontSize: "35px" }} />
-          </a>
-        </li>
-      </ul>
+      
+      
     </div>
   );
 }

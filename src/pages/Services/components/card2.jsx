@@ -47,8 +47,15 @@ function Card2() {
           <TextBox>
             <StyledText variant="h3">
               Impression{" "}
-              <StyledText variant="h3" sx={{ color: "#57C9EA" }}>
+              <StyledText variant="h3">
                 Numérique
+              </StyledText>
+              <StyledText variant="h3" sx={{ color: "#57C9EA" }}>
+                  {" "}
+                  &{" "}
+                </StyledText>
+              <StyledText variant="h3">
+                Habillage
               </StyledText>
             </StyledText>
             <br />
