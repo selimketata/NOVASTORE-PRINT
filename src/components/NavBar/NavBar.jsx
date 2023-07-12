@@ -35,6 +35,10 @@ function NavBar() {
     return pageName || "home";
   };
 
+  const handleSectionClick = (section) => {
+    navigate(`/services#${section}`);
+  };
+
   return (
     <nav className="Nav-container">
       <img className="logo" src={logo} alt="" />
@@ -76,17 +80,20 @@ function NavBar() {
                 <HoverElement2
                   image_url={require("../../assets/Img2.png")}
                   text="Stores & Abris"
-                  dest="section1"
+                  dest="section1n"
+                  onClick={() => handleSectionClick("section1n")}
                 />
                 <HoverElement2
                   image_url={require("../../assets/Img3.png")}
                   text="Impression Numérique & Habillage"
-                  dest="section2"
+                  dest="section2n"
+                  onClick={() => handleSectionClick("section2n")}
                 />
                 <HoverElement2
                   image_url={require("../../assets/Img1.jpg")}
                   text="Revêtement De Façade"
-                  dest="section3"
+                  dest="section3n"
+                  onClick={() => handleSectionClick("section3n")}
                 />
               </div>
             </div>

@@ -13,6 +13,7 @@ const StyledContent = Styled(CardContent)({
   justifyContent: "center",
   alignItems: "center",
   marginBottom: "1vw",
+  gap:"5%"
 });
 const StyledText = Styled(Typography)({
   fontWeight: "bolder",
@@ -25,18 +26,20 @@ const StyledSub = Styled(Typography)({
   fontSize: "2vw",
   paddingInline: "10vw",
 });
-const TextBox = Styled(Box)({ margin: ".75vw" });
+const TextBox = Styled(Box)({ margin: "15px" });
 const StyledBox = Styled(Box)({
   display: "flex",
   alignItems: "center",
+  gap:"3%",
+  justifyContent:"center"
 });
 function Card3() {
   const [index, SetIndex] = useState(1);
   const images = [img1, img2, img3];
-  const clicked = () => {
+  const Rclicked = () => {
     SetIndex((index + 1) % 3);
   };
-  const Rclicked = () => {
+  const clicked = () => {
     SetIndex((index + 3 - 1) % 3);
   };
   return (

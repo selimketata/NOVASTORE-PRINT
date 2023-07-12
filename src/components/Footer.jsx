@@ -25,7 +25,7 @@ function Footer() {
           </div>
         </div>
         <div className="lien">
-          <h3>USEFUL LINKS</h3>
+          <h3>LIENS UTILES</h3>
           <ul className="footer-ul">
             <li>
               <a className="footer-a" href="/">
@@ -49,7 +49,35 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="footer-contact">
+
+
+
+        <div className="lien">
+          <h3>SERVICES</h3>
+          <ul className="footer-ul">
+            <li>
+              <a className="footer-a" href="/services#section1">
+                STORES ET ABRIS
+              </a>
+            </li>
+            <li>
+              <a className="footer-a" href="/services#section2">
+                IMPRESSION NUMÉRIQUE <br></br>
+                <span className="habillage">HABILLAGE</span>
+              </a>
+            </li>
+            <li>
+              <a className="footer-a" href="/services#section3">
+                REVETEMENT DE FAÇADE
+              </a>
+            </li>
+          </ul>
+        </div>
+
+
+
+
+        <div className="footer-contact lien">
           <h3>NOUS CONTACTER</h3>
           <div className="span">
             <span className="footer-span">+216 22 222 222</span>
@@ -58,31 +86,24 @@ function Footer() {
           </div>
           <div className="social">
             <a className="footer-a" href="">
-              <FaFacebookF size={"15px"} className="icones" />
+              <FaFacebookF size={"25px"} className="icones" />
             </a>
             <a className="footer-a" href="">
-              <BsInstagram size={"15px"} className="icones" />
+              <BsInstagram size={"25px"} className="icones" />
             </a>
             <a className="footer-a" href="">
-              <BsMessenger size={"15px"} className="icones" />
+              <BsMessenger size={"25px"} className="icones" />
             </a>
           </div>
+          
         </div>
-        <div className="new">
-          <h3>NEWSLETTER</h3>
-          <div className="span">
-            <span className="footer-span">Soyer le premier a revecoir</span>
-            <span className="footer-span">nos noveautés</span>
-          </div>
-          <div className="footer-email">
-            <input type="email" placeholder="Entrez votre adresse email" />
-            <button>
-              <RiArrowRightSLine />
-            </button>
-            <hr className="footer-email-hr" />
-          </div>
-        </div>
+
+        
+        
       </div>
+      
+
+        
       <div className="backToTop" style={{ cursor: "pointer" }} onClick={top}>
         <button>
           <SlArrowUp />

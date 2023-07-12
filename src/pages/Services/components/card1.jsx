@@ -30,7 +30,7 @@ const TextBox = Styled(Box)({ margin: "15px" });
 const StyledBox = Styled(Box)({
   display: "flex",
   alignItems: "center",
-  gap:"6%",
+  gap:"3%",
   justifyContent:"center"
 });
 

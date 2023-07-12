@@ -1,13 +1,13 @@
 .image2{
-    width: 30vw;
-    height: 400px;
+    width: 32vw;
+    height: 350px;
     border-radius:5% ;
     
 }
 .image1,.image3{
     border-radius:5% ;
-    width: 20vw;
-    height: 300px;
+    width: 15vw;
+    height: 210px;
 }
 
 .buttons{

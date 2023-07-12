@@ -7,8 +7,10 @@
     font-family: Bahnschrift;
     overflow: hidden;
    
-    
 }
+
+
+
 .footer_container .logo_div{
     display: flex;
     flex-direction: column;
@@ -59,11 +61,17 @@
 .lien {
 position: relative;
 top: 2px;
+height: 150px;
+
 }
 .lien .footer-ul{
    list-style: none;
   
 }
+.habillage{
+    margin-left: -38px; 
+}
+  
 .lien .footer-ul .footer-a{
     text-decoration: none;
     color: #707070;
@@ -78,16 +86,9 @@ top: 2px;
     color: #57C9EA;
     transition: 0.3s ease-in-out;
 }
-.footer-contact{
-    position: relative;
-    top: -3px;
-    
-}
-.footer-contact h3{
-    color: #F8F5E6;
-    font-weight: lighter;
-}
-.footer-contact  .span span{
+
+
+.span span{
     display: flex;
     flex-direction: column;
     color: #707070;
@@ -107,8 +108,8 @@ top: 2px;
 
 .social .footer-a{
   
- height: 25px;
- width: 25px;
+ height: 40px;
+ width: 40px;
  border-radius: 100%;
  background-color: #F8F5E6;
  text-align: center;
@@ -116,61 +117,10 @@ top: 2px;
   justify-content: center;
  align-items: center;
  
- margin: 0px 10px 10px 0px;
+ margin: 10px 10px 10px 0px;
  color: #050727;
 }
-.new{
-    
-    position: relative;
-    top: -8px;
 
-}
-.new h3{
-    color:#F8F5E6;
-    font-weight: lighter;
-}
-.new .span ,.new .footer-email{
-    color: #878791;
-}
-.new .span{
-    display: flex;
-    flex-direction: column;
-    gap :10px;    
-}
-.new span{
-    font-size:12px;
-    font-weight:lighter;
-    letter-spacing: 1px;
-}
-.new .footer-email{
-    margin-top: 10px;
-    
-
-}
-
-.new input{
-    border: none;
-    background-color: #050727;
-    color: #F8F5E6;
-    outline: none;
-    
-}
-
-.new input::placeholder{
-    color: #F8F5E6;
-    font-weight:lighter;
-}
-.new button{
-    border: 1px solid #F8F5E6;
-    background-color: #050727;
-    color:#F8F5E6;
-    cursor: pointer;
-}
-.new button :first-child{
-    position: relative;
-    top: 1px;
-   
-}
 .footer-email{
     padding-bottom: 5px;
     margin: 0px;
@@ -207,7 +157,7 @@ top: 2px;
   padding: 10px;
   letter-spacing: 1px;
 }
-@media screen and (max-width: 930px){
+/* @media screen and (max-width: 930px){
 
     .footer_container{
         background-color: #050727;
@@ -332,7 +282,7 @@ top: 2px;
         letter-spacing: 2.5px;
         left: 10px;
         }
-}
+} */
 
  /* @media screen and (max-width: 600px){
     .footer_container .logo_div .footer-logo p {
