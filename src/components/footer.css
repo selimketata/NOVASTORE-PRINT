@@ -1,12 +1,35 @@
 
 .footer_container{
     background-color: #050727;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 38% 21% 20% 15%;
     align-items: center;
     font-family: Bahnschrift;
     overflow: hidden;
+    gap: 2%;
+    padding-right: 8%;
    
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+
+
+
+
+
+.logo-img{
+    width: 50%;
+    height: auto;
+    padding-top: 3%;
+    
+}
+.footer-contact{
+    text-align: center;
 }
 
 
@@ -16,7 +39,7 @@
     flex-direction: column;
 }
 
-.footer_container .logo_div .footer-logo img{
+.footer_container .logo_div {
     width: 70px;
     height: 30px;
     position: relative;
@@ -49,8 +72,7 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-    position: relative;
-    top: -50px;
+
 }
 .lien h3{
     color: #F8F5E6;
@@ -61,7 +83,7 @@
 .lien {
 position: relative;
 top: 2px;
-height: 150px;
+height: 160px;
 
 }
 .lien .footer-ul{
@@ -72,7 +94,7 @@ height: 150px;
     margin-left: -38px; 
 }
   
-.lien .footer-ul .footer-a{
+.footer-a{
     text-decoration: none;
     color: #707070;
     margin-left: -38px;

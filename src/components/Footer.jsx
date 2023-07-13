@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo-footer.png";
 import { FaFacebookF } from "react-icons/fa";
 import { BsMessenger, BsInstagram } from "react-icons/bs";
 import { RiArrowRightSLine } from "react-icons/ri";
@@ -12,18 +12,17 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer_container">
-        <div className="logo_div">
-          <div className="footer-logo">
-            <img src={logo} alt="logo" />
-            <p>
-              NovaStore <span className="footer-span">Print</span>
-            </p>
-          </div>
-          <div className="para">
+      <div className="part1">
+        
+            <img src={logo} alt="logo"  className="logo-img"/>
+            <div className="para">
             <span className="footer-span">You think it.</span>
             <span className="footer-span">We print it!</span>
-          </div>
+            </div>
+        
         </div>
+
+
         <div className="lien">
           <h3>LIENS UTILES</h3>
           <ul className="footer-ul">
@@ -98,7 +97,7 @@ function Footer() {
           
         </div>
 
-        
+
         
       </div>
       

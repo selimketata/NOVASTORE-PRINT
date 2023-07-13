@@ -29,8 +29,21 @@ function NavBar() {
     setCurrentPage(getPageNameFromPath(currentPath));
   }, [location]);
 
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 780) {
+        setIsMobile(false);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const getPageNameFromPath = (path) => {
-    
     const pageName = path.substring(1);
     return pageName || "home";
   };
@@ -56,7 +69,9 @@ function NavBar() {
           Home{" "}
         </div>
         <div
-          className={`nav nav-pres ${currentPage === "presentation" ? "current-page" : ""}`}
+          className={`nav nav-pres ${
+            currentPage === "presentation" ? "current-page" : ""
+          }`}
           onClick={() => {
             navigate("/presentation");
             setCurrentPage("presentation");
@@ -65,7 +80,9 @@ function NavBar() {
           Présentation
         </div>
         <div
-          className={`nav nav-service ${currentPage === "services" ? "current-page" : ""}`}
+          className={`nav nav-service ${
+            currentPage === "services" ? "current-page" : ""
+          }`}
           onClick={() => {
             navigate("/services");
             setCurrentPage("services");
@@ -100,7 +117,9 @@ function NavBar() {
           )}
         </div>
         <div
-          className={`nav nav-contact ${currentPage === "contacts" ? "current-page" : ""}`}
+          className={`nav nav-contact ${
+            currentPage === "contacts" ? "current-page" : ""
+          }`}
           onClick={() => {
             navigate("/contacts");
             setCurrentPage("contacts");
