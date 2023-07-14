@@ -23,7 +23,7 @@ function Footer() {
         </div>
 
 
-        <div className="lien">
+        <div className="lien part2">
           <h3>LIENS UTILES</h3>
           <ul className="footer-ul">
             <li>
@@ -33,7 +33,7 @@ function Footer() {
             </li>
             <li>
               <a className="footer-a" href="/presentation">
-                PRESENTATION
+                PRÉSENTATION
               </a>
             </li>
             <li>
@@ -51,7 +51,7 @@ function Footer() {
 
 
 
-        <div className="lien">
+        <div className="lien part3">
           <h3>SERVICES</h3>
           <ul className="footer-ul">
             <li>
