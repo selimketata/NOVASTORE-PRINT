@@ -19,21 +19,21 @@ export function Contacts() {
       <div className="contact-container">
         <ul>
           <li>
-            <CallIcon sx={{ fontSize: "3vw" }} />
+            <CallIcon sx={{ fontSize: "380%" }} />
           </li>
           <li>Téléphone</li>
           <li>+216 95 655 645</li>
         </ul>
         <ul>
           <li>
-            <AddLocationIcon sx={{ fontSize: "3vw" }} />
+            <AddLocationIcon sx={{ fontSize: "380%" }} />
           </li>
           <li>Adresse</li>
           <li>51600 Tunis,Tunisia</li>
         </ul>
         <ul>
           <li>
-            <MailIcon sx={{ fontSize: "3vw" }} />
+            <MailIcon sx={{ fontSize: "380%" }} />
           </li>
           <li>Email</li>
           <li>novastoreprint@gmail.com</li>

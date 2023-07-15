@@ -328,8 +328,10 @@ height: 160px;
         background-size: calc(100% - 28px) 2px;
       }
       
-
-
+      .footer ul .footer-a:hover{
+        background-image: linear-gradient(to bottom, #57C9EA 60%, transparent 50%);
+      }
+    
  
     
     span.footer-span{

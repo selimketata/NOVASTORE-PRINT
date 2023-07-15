@@ -132,6 +132,7 @@ nav{
         border: none;
         background-color: white;
         margin-right: 7vw;
+        margin-top: 1vw;
     }
     
 }
@@ -302,6 +303,13 @@ nav{
         width:23vw;
         margin-left: 5vw;
     }
+    .Nav-btn svg{
+        width: 16vw;
+    }
+    .Nav-btn{
+        margin-right: 2vw;
+        margin-top: 2vw;
+    }
 }
 @media(max-width:400px){
     .Nav-container{
@@ -316,6 +324,13 @@ nav{
     .Nav-elements-mobile{
         top:18vw;
     }
+    .Nav-btn svg{
+        height: 9vw;
+    }
+    .Nav-btn{
+        margin-right: 2vw;
+        margin-top: 2vw;
+    }
 }
 @media(max-width:300px){
     .Nav-container{
@@ -329,5 +344,12 @@ nav{
     }
     .Nav-elements-mobile{
         top:20.3vw;
+    }
+    .Nav-btn svg{
+        height: 12vw;
+    }
+    .Nav-btn{
+        margin-right: 2vw;
+        margin-top: 2vw;
     }
 }

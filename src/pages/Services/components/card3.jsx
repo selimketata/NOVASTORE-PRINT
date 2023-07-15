@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Card, Box, Typography, Button, CardContent } from "@mui/material";
 import Styled from "@emotion/styled";
 import img1 from "../photos/image1.png";
-import img2 from "../photos/image2.png";
-import img3 from "../photos/image3.png";
+import img2 from "../photos/image2.jpg";
+import img3 from "../photos/image3.jpg";
 import before from "../photos/before.png";
 import after from "../photos/after.png";
 import "./cards.css";
@@ -71,10 +71,10 @@ function Card3() {
 
             <StyledContent>
               <Button onClick={clicked} variant="contianed">
-                <img className="buttons" src={before} />
+                <img className="buttons left" src={before} />
               </Button>
               <StyledBox>
-                <Box sx={{ display: { xs: "none", sm: "block" } }}>
+                <Box className="box">
                   <img
                     className="image1"
                     src={images[(index + images.length - 1) % images.length]}
@@ -83,7 +83,7 @@ function Card3() {
                 <Box>
                   <img className="image2" src={images[index]} alt="img2" />
                 </Box>
-                <Box sx={{ display: { xs: "none", sm: "block" } }}>
+                <Box className="box">
                   <img
                     className="image3"
                     src={images[(index + 1) % images.length]}
@@ -92,7 +92,7 @@ function Card3() {
                 </Box>
               </StyledBox>
               <Button onClick={Rclicked} variant="contianed">
-                <img className="buttons" src={after} />
+                <img className="buttons right" src={after} />
               </Button>
             </StyledContent>
           </CardContent>

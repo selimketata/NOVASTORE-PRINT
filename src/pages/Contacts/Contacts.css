@@ -16,13 +16,13 @@
     height: 400px;
 }
 .contact-container{
-    padding-bottom: 4vh;
+    padding-bottom: 2vw;
 }
 
 .contact-container ul li{
     list-style: none;
     margin-top: 0.7em;
-    font-size: 1vw;
+    font-size: 12px;
 }
 .contact a{ 
     /* display: inline-block; */
@@ -60,7 +60,7 @@
 
 .contact-container > ul {
     padding: 0;
-    width:20vw;
+    width:230px;
 }
 .contact-icons li  {
     display: flex;
@@ -70,15 +70,79 @@
 }
 .contact-container ul li:nth-child(2){
     font-weight: bold;
-    font-size: 1.75vw;
+    font-size: 27px;
 }
-@media screen and (max-width:780px) {
-    
-    body{
-        font-size: 0.5em;
+
+@media (max-width:700px){
+    .contact-container ul li{
+        list-style: none;
+        margin-top: 0.7em;
+        font-size: 10px;
     }
-    .contact a{
-        padding: 10px;
+    .contact-container ul li:nth-child(2){
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .contact-container > ul {
+        padding: 0;
+        width:180px;
+    }
+  
+    
+
+}
+
+@media (max-width:420px){
+    .contact-container ul li{
+        list-style: none;
+        margin-top: 0.7em;
+        font-size: 9px;
+    }
+    .contact-container ul li:nth-child(2){
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .contact-container > ul {
+        padding: 0;
+        width:120px;
+    }
+  
+    
+
+}
+@media (max-width:300px){
+    .contact-container ul li{
+        list-style: none;
+        margin-top: 0.7em;
+        font-size: 8px;
+    }
+    .contact-container ul li:nth-child(2){
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .contact-container > ul {
+        padding: 0;
+        width:70px;
+    }
+    .contact-container{
+        margin-top: 1vw;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: start;
+        align-items: center;
+        
+    }
+    .contact-container ul{
+        margin-top: 1vw;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        
     }
     
+
 }
