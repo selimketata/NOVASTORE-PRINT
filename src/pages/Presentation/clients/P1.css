@@ -227,7 +227,7 @@ hr.light {
       padding-left: 1.2vw;
       padding-bottom: 0.66vw;
       margin-left: -1.2vw;
-      font-size: 4vw;
+      font-size: 5vw;
       font-family: 'lato Black', sans-serif;
       font-weight: bolder;
       text-align: left;
@@ -238,14 +238,74 @@ hr.light {
   
     #a,
     #b {
-      font-size: 4vw;
+      font-size: 5vw;
       font-family: 'lato Black', sans-serif;
       font-weight: bolder;
       margin-block:0 ;
       margin-left: 10px;
     }
 
-@media (max-width:850px) {
+    @media(max-width:780px) {
+
+      #a,#b,#color{
+          font-size: 5.5vw;
+      }
+      .b{
+        margin-left: -03px;
+      }
+  
+  }
+  
+  @media(max-width:600px){
+  .parent{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .child1{
+  }
+  .avis-container{
+    width:100%;
+
+
+  }
+    }
+  @media(max-width:550px) {
+  
+    #a,#b,#color{
+          font-size: 5.75vw;
+      }
+      .b{
+        margin-left: -05px;
+      }
+  
+  }
+  
+  @media(max-width:400px) {
+  
+    #a,#b,#color{
+          font-size: 6vw;
+      }
+  
+  }
+  
+  @media(max-width:320px) {
+  
+    #a,#b,#color{
+          font-size: 6.25vw;
+      }
+      .b{
+        margin-left: -06px;
+      }
+  
+  }
+  
+
+  
+  
+  
+
+/* @media (max-width:850px) {
   .parent{
     display: flex;
     flex-direction: column;
@@ -270,7 +330,7 @@ hr.light {
 }
 
   
-}
+} */
   
   /* @media screen and (max-width: 1180px) {
     .circles{

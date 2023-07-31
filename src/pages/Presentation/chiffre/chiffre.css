@@ -29,3 +29,79 @@ font-size: 1.3vw;
 color:#050727d6 ;
 
 }
+
+
+
+@media(max-width:780px) {
+
+
+ span.chiffre{
+  font-size: 7.5vw;
+}
+#label{
+  font-size: 2vw;
+
+}
+
+}
+
+@media(max-width:630px) {
+
+  span.chiffre{
+      font-size: 9vw;
+  }
+  #label{
+    font-size: 2.5vw;
+
+  }
+ 
+}
+
+@media(max-width:550px) {
+
+  span.chiffre{
+      font-size: 9vw;
+  }
+  #label{
+    font-size: 2.75vw;
+
+  }
+ 
+}
+
+@media(max-width:480px) {
+
+  span.chiffre {
+      font-size: 10vw;
+  }
+  #label{
+    font-size: 3vw;
+    width: 120%;
+
+  }
+  
+
+}
+
+@media(max-width:400px) {
+
+  span.chiffre {
+      font-size: 10vw;
+  }
+  #label{
+    font-size: 3.25vw;
+    width: 120%;
+
+  }
+  
+
+}
+
+ 
+
+
+
+
+
+
+

@@ -14,7 +14,7 @@ export default function P1(props) {
           {" "}
           <h1 id="color">t De </h1>
         </span>
-        <span>
+        <span className="b">
           {" "}
           <h1 id="b"> Nous</h1>
         </span>{" "}

@@ -6,11 +6,13 @@ function NosChiffres() {
   return (
     <div id="chiffre-content">
       {/* <div id="test"></div> */}
+      
       <div id="titleChiffre">
         <span id="a-chiffre">N</span>
         <span id="color-chiffre">os C</span>
         <span id="b-chiffre">hiffres</span>
       </div>
+
       <span id="bolderText">
         When we get to work we really make things happen fast and powerfully
       </span>

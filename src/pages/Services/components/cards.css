@@ -367,5 +367,8 @@
         font-size: 4vw;
     }
 }
-
-
+@media(max-width:281px){
+.MuiBox-root span, .MuiBox-root h3  {
+    font-size: 7.6vw;
+}
+}
