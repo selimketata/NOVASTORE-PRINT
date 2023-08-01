@@ -93,6 +93,10 @@ color:#050727d6 ;
     width: 120%;
 
   }
+  #chiffre-content{
+    display: flex;
+    gap:3vw;
+  }
   
 
 }

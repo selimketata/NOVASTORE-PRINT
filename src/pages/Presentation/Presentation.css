@@ -40,7 +40,7 @@
     bottom: 0px;
 }
 .slick-dots> li >button::before{
-  font-size: max(1vw,8px) !important;
+  font-size: max(0.75rem,0.75rem) !important;
 }
 button.slick-arrow.slick-next{
   display: none !important;

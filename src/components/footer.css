@@ -398,9 +398,9 @@ height: 160px;
         gap: 2%;
         padding-right: 0%;
     }
-    .logo-img{
+    /* .logo-img{
         width:60%;
-    }
+    } */
 
     div.para{
         display:flex;

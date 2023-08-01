@@ -27,12 +27,15 @@ export default function P1(props) {
               <div className="av1" key={record.id}>
                 <div className="avis-container">
                   <div className="child1">
+
                     <div className="appostrophe">
                       <img src={im3} className="apostrophe-image" />
                     </div>
+
                     <div className="avis-text">
                       <p id="avis">{record.avis}</p>
                     </div>
+
                     <div className="imname1">
                       <div className="im">
                         <img src={record.image} id="i" />
@@ -44,6 +47,7 @@ export default function P1(props) {
                         </p>
                       </div>
                     </div>
+
                   </div>
                 </div>
               </div>

@@ -17,7 +17,7 @@ function Cadre(props) {
           <div id="author-container">
             <div id="author">
               <div id="noun">{props.name}</div>
-              <div>{props.status}</div>
+              <div id="status">{props.status}</div>
             </div>
           </div>
         </div>
