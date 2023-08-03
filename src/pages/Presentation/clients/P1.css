@@ -10,9 +10,12 @@ body{
     justify-content: center;
     width: 49vw;
     position: relative;
-    animation: slideDown1 1s;
+   animation: slideDown1 0.5s; 
     
 }
+
+
+
 .apostrophe-image{
   width: 6vw;
 }
@@ -137,7 +140,7 @@ hr.light {
   }
 
  
-@keyframes slideDown {
+ @keyframes slideDown {
     from{
         transform:translateX(40rem);
         opacity:1;
@@ -147,6 +150,16 @@ hr.light {
         opacity:1;
 
     }
+} 
+
+.avis-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  width: 49vw;
+  position: relative;
+ animation: slideDown1 0.5s; 
+  
 }
 
 .box{
@@ -156,23 +169,18 @@ hr.light {
     justify-content: space-between;
 
 }
-.pagesanimate {
-    animation: slideDown1 5s;
-  }
-  .box.show1 {
-    animation: slideDown1 5s;
-  }
-  @keyframes slideDown1 {
+
+   @keyframes slideDown1 {
     from{
-        transform:translateX(30rem);
+        transform:translateX(40vw); 
         opacity:0;
     }
     to{
-        transform: translateX(0rem);
+        transform: translateX(0vw); 
         opacity:1;
 
     }
-}
+} 
 .parent{
     display: flex;
    
@@ -182,6 +190,7 @@ hr.light {
     height: 4vw;
     width: 4vw;
     margin-left: 1vw;
+    
  
 }
 .slide{
@@ -259,6 +268,7 @@ hr.light {
         height: 30vw;
         justify-content: initial;
       }
+      
       .avis-container{
         width:100%;
       }
@@ -454,7 +464,7 @@ hr.light {
   @media(max-width:450px) {
   
     #a,#b,#color{
-          font-size: 6vw;
+          font-size: 5.75vw;
       }
 
       .child1{
@@ -486,8 +496,8 @@ hr.light {
       }
       
       #i{
-        width:60px;
-        height:60px;
+        width:50px;
+        height:50px;
         margin-left: 14px;
         
       }
@@ -513,7 +523,7 @@ hr.light {
   @media(max-width:400px) {
   
     #a,#b,#color{
-          font-size: 6vw;
+          font-size: 5.85vw;
       }
 
       .child1{
@@ -566,26 +576,83 @@ hr.light {
         font-size: 2.5vw;
   
       }
+
     
     
   }
   @media(max-width:320px) {
   
     #a,#b,#color{
-          font-size: 6.25vw;
+          font-size: 5.85vw;
       }
       .b{
         margin-left: -06px;
       }
       .appostrophe img{
-        width: 50px;
+        width: 45px;
         margin-top: 1vw;
         margin-bottom: 1vw;
         }
         .imname1{
           position:absolute;
-          top:60%;
+          top:65%;
           
+        }
+        #i{
+          width: 45px;
+          height:45px;
+          margin-left: 14px;
+          
+        }
+        #avis{
+          font-size: 3.75vw;
+          width: 80vw;
+        }
+        .avis-text{
+          align-self: start;
+          max-width: 100%;
+          margin:0;
+          padding:0;
+          margin-left: 10vw;
+          margin-top: 4vw;
+        }
+  }
+
+  @media(max-width:300px) {
+  
+    #a,#b,#color{
+          font-size: 5.9vw;
+      }
+      .b{
+        margin-left: -06px;
+      }
+      .appostrophe img{
+        width: 40px;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        }
+        .imname1{
+          position:absolute;
+          top:65%;
+          
+        }
+        #i{
+          width: 40px;
+          height:40px;
+          margin-left: 14px;
+          
+        }
+        #avis{
+          font-size: 3.75vw;
+          width: 80vw;
+        }
+        .avis-text{
+          align-self: start;
+          max-width: 100%;
+          margin:0;
+          padding:0;
+          margin-left: 10vw;
+          margin-top: 4vw;
         }
   }
   

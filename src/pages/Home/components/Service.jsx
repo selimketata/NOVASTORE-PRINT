@@ -19,7 +19,7 @@ function Service() {
     <div className="service-container">
       <h1>
         {" "}
-        <span>NOS</span> services{" "}
+        <span>Nos</span> services{" "}
       </h1>
       <hr className="service-hr" />
       <div className="part">

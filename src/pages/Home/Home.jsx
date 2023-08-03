@@ -21,10 +21,11 @@ function Home() {
           </p>
         </div>
       </div>
-      <Service />
+      
       <div className="home">
+      <Service />
         <Apropos />
-        <Partenaires />
+        <Partenaires/>
       </div>
     </div>
   );

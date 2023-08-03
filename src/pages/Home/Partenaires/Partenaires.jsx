@@ -1,11 +1,7 @@
 import React from "react";
 import { Imageslider } from "./Imageslider";
-import img1 from "./img1.jpg";
-import img2 from "./img2.jpg";
-import img3 from "./img3.jpg";
-import img4 from "./img4.jpg";
-import img5 from "./img5.jpg";
 import "./Partenaires.css";
+import "./../Apropos/Apropos.css"
 
 export const Partenaires = () => {
   return (
@@ -14,10 +10,12 @@ export const Partenaires = () => {
         <div className="Partenaire-title">
           <span className="Lettre1">Nos </span>
           <span className="titre">Partenaires</span>
+          <hr id="trait1" className="trait2"/>
         </div>
       </div>
 
-      <Imageslider Images={[img1, img3, img5, img4, img2]} />
+      <Imageslider />
     </div>
   );
 };
+

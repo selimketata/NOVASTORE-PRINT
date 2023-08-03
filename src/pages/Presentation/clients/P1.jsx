@@ -21,7 +21,7 @@ export default function P1(props) {
       </div>
       <hr className="light" />
       <div className="parent">
-        {props.Users &&
+         {props.Users &&
           props.Users.map((record) => {
             return (
               <div className="av1" key={record.id}>
@@ -38,7 +38,7 @@ export default function P1(props) {
 
                     <div className="imname1">
                       <div className="im">
-                        <img src={record.image} id="i" />
+                        <img src={record.image} id="i" loading="lazy" />
                       </div>
                       <div className="avis-name">
                         <p id="avis-nom">{record.name}</p>
@@ -51,8 +51,10 @@ export default function P1(props) {
                   </div>
                 </div>
               </div>
+              
             );
-          })}
+          })} 
+
       </div>
     </div>
   );

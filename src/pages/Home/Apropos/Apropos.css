@@ -9,9 +9,10 @@ section{
    
 
 #trait1{
+      
     width: 45%;
-    border: 0.2vw solid black;
-
+    border: 2px solid black;
+    
 }
 .Apropos-container{
     margin-left: 0;
@@ -75,7 +76,112 @@ section{
   width: 25px;
 }
 /* Media queries */
-@media only screen and (max-width: 768px) {
+@media (max-width:1000px) {
+  .imaage{
+    width:100%;
+    height:480px;
+  }
+  .Apropos-container{
+
+    height: 480px; 
+    width: 100%;
+    
+   
+}
+}
+
+@media (max-width:910px) {
+  .imaage{
+    width:100%;
+    height:450px;
+  }
+  .Apropos-container{
+
+    height: 450px; 
+    width: 100%;
+    
+   
+}
+.Apropos-text{
+    
+ 
+  padding: 20px;
+  font-size: 1.85vw;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  line-height: 120%;
+}
+}
+@media (max-width:780px) {
+  .imaage{
+    width: 100%;
+    height: auto;
+        order: 1;
+  }
+  .Apropos-container{
+    
+    height: 510px; 
+    width: 80%;
+    display: grid;
+    grid-template-columns: initial;
+    grid-template-rows: 70% 30%;
+    margin: 0 auto; 
+    margin-top: 3%;
+  }
+.Apropos-text{
+    
+ 
+  padding: 40px;
+  font-size: 1.85vw;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  order:2;
+  line-height: 120%;
+  margin:initial;
+}
+.Apropos-text p{
+    
+ 
+  margin:initial;
+
+}
+
+
+
+}
+
+@media (max-width:700px) {
+  .imaage{
+    width: 100%;
+    height: auto;
+        order: 1;
+  }
+  .Apropos-container{
+    
+    height: 510px; 
+    width: 90%;
+    display: grid;
+    grid-template-columns: initial;
+    grid-template-rows: 70% 30%;
+    margin: 0 auto; 
+    margin-top: 3%;
+  }
+.Apropos-text{
+    
+ 
+  padding: 40px;
+  font-size: 2vw;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  order:2;
+  line-height: 120%;
+  margin:initial;
+}
+}
+
+
+/* @media only screen and (max-width: 768px) {
   
     
     .Apropos-text {
@@ -109,11 +215,205 @@ section{
       margin-top: 10px;
     }
     
+  } */
+  
+  
+  
+  @media (max-width:600px) {
+    .imaage{
+      width: 100%;
+      height: auto;
+          order: 1;
+    }
+    .Apropos-container{
+      
+      height: 510px; 
+      width: 100%;
+      display: grid;
+      grid-template-columns: initial;
+      grid-template-rows: 65% 35%;
+      margin: 0 auto; 
+      margin-top: 3%;
+    }
+  .Apropos-text{
+      
+   
+    padding: 30px;
+    font-size: 2.25vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    order:2;
+    line-height: 120%;
+  }
+  }
+  @media (max-width:500px) {
+  #trait1{
+      
+    width: 60%;
+    border: 2px solid black;
+    
+}}
+
+  @media (max-width:550px) {
+    .imaage{
+      width: 100%;
+      height: auto;
+          order: 1;
+    }
+    .Apropos-container{
+      
+      height: 470px; 
+      width: 100%;
+      display: grid;
+      grid-template-columns: initial;
+      grid-template-rows: 65% 35%;
+    }
+  .Apropos-text{
+      
+    padding-top: 30px;
+    padding: 30px;
+    font-size: 2.25vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    order:2;
+    line-height: 120%;
+  }
+  }
+
+  @media (max-width:450px) {
+    .imaage{
+      width: 100%;
+      height: auto;
+          order: 1;
+    }
+    .Apropos-container{
+      
+      height: 500px; 
+      width: 100%;
+      display: grid;
+      grid-template-columns: initial;
+      grid-template-rows: 70% 30%;
+      margin: 0 auto; 
+      margin-top: 3%;
+    }
+  .Apropos-text{
+      
+    padding-top: 30px;
+    padding: 30px;
+    font-size: 2.5vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    order:2;
+    line-height: 120%;
+  }
   }
   
+  @media (max-width:400px) {
+    .imaage{
+      width: 100%;
+      height: auto;
+          order: 1;
+    }
+    .Apropos-container{
+      
+      height: 500px; 
+      width: 100%;
+      display: grid;
+      grid-template-columns: initial;
+      grid-template-rows: 70% 30%;
+      margin: 0 auto; 
+      margin-top: 3%;
+    }
+  .Apropos-text{
+      
+    padding: 20px;
+    font-size: 2.75vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    order:2;
+    line-height: 120%;
+  }
+  #trait1{
+      
+    width: 60%;
+    border: 2px solid black;
+    
+}
+
+  }
+
+
+  @media (max-width:350px) {
+
+  #trait1{
+      
+    width: 70%;
+    border: 2px solid black;
+    
+}
+  }
   
-  
-  
-  
-  
-  
+  @media (max-width:340px) {
+    .imaage{
+      width: 100%;
+      height: auto;
+          order: 1;
+    }
+    .Apropos-container{
+      
+      height: 500px; 
+      width: 100%;
+      display: grid;
+      grid-template-columns: initial;
+      grid-template-rows: 70% 30%;
+      margin: 0 auto; 
+      margin-top: 3%;
+    }
+  .Apropos-text{
+      
+    padding: 20px;
+    font-size: 3vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    order:2;
+    line-height: 120%;
+  }
+  .btn{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+  }
+  @media (max-width:290px) {
+    .imaage{
+      width: 100%;
+      height: auto;
+          order: 1;
+    }
+    .Apropos-container{
+      
+      height: 370px; 
+      width: 100%;
+      display: grid;
+      grid-template-columns: initial;
+      grid-template-rows: 60% 40%;
+      margin: 0 auto; 
+      margin-top: 3%;
+    }
+  .Apropos-text{
+      
+    padding: 20px;
+    font-size: 3.35vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    order:2;
+    line-height: 120%;
+  }
+  .btn{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+  }
