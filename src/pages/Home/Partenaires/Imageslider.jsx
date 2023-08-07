@@ -3,11 +3,11 @@ import "./Imageslider.css";
 import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
 import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
 import { useMediaQuery } from "@mui/material";
-import img1 from "./img1.jpg";
-import img2 from "./img2.jpg";
-import img3 from "./img3.jpg";
-import img4 from "./img4.jpg";
-import img5 from "./img5.jpg";
+import img2 from "./img1.jpg";
+import img4 from "./img2.jpg";
+import img3 from "./img5.jpg";
+import img5 from "./img4.jpg";
+import img1 from "./img3.jpg";
 
 export const Imageslider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -15,17 +15,28 @@ export const Imageslider = () => {
   const isSmallScreen = useMediaQuery("(max-width:600px)");
   const Images = [img1, img3, img5, img4, img2];
 
+
+  const handleResize = () => {
+    const windowWidth = window.innerWidth;
+    if (windowWidth >= 600) {
+      setCurrentList(Images.slice(0, 3));
+    }  else {
+      setCurrentList(Images.slice(0, 1));
+    }
+  };
+
   useEffect(() => {
     handleResize(); 
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  }, [currentList.length]);
 
   useEffect(() => {
     const offset = Math.floor(currentList.length / 2);
     const start = (currentIndex - offset + Images.length) % Images.length;
     const end = (currentIndex + offset + 1) % Images.length;
     setCurrentList(getNewList(start, end));
+    console.log(currentList)
   }, [currentIndex]);
 
   const prevImage = () => {
@@ -44,14 +55,7 @@ export const Imageslider = () => {
     }
   };
 
-  const handleResize = () => {
-    const windowWidth = window.innerWidth;
-     if (windowWidth >= 600) {
-      setCurrentList(Images.slice(0, 3));
-    } else {
-      setCurrentList(Images.slice(0, 1));
-    }
-  };
+
 
   return (
     <div className="image-slider">

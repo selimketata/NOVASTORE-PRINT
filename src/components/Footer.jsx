@@ -28,7 +28,7 @@ function Footer() {
           <ul className="footer-ul">
             <li>
               <a className="footer-a" href="/">
-                HOME
+                ACCUEIL
               </a>
             </li>
             <li>
@@ -79,15 +79,15 @@ function Footer() {
         <div className="footer-contact lien">
           <h3>NOUS CONTACTER</h3>
           <div className="span">
-            <span className="footer-span">+216 22 222 222</span>
+            <span className="footer-span">+216 70 721 217</span>
 
-            <span className="footer-span">NovaStore@gmail.com</span>
+            <span className="footer-span">contact@novastoreprint.com</span>
           </div>
           <div className="social">
-            <a className="footer-a" href="">
+            <a className="footer-a" href="https://www.facebook.com/profile.php?id=100064168410054">
               <FaFacebookF size={"25px"} className="icones" />
             </a>
-            <a className="footer-a" href="">
+            <a className="footer-a" href="https://www.instagram.com/novastore_print/">
               <BsInstagram size={"25px"} className="icones" />
             </a>
             <a className="footer-a" href="">
@@ -107,10 +107,10 @@ function Footer() {
         <button>
           <SlArrowUp />
         </button>{" "}
-        BACK TO TOP
+        HAUT DE PAGE
       </div>
       <div className="copy">
-        &copy; 2023 NOVASTORE PRINT . All Rights Reserved.
+        &copy; 2023 NOVASTORE PRINT . Tous les droits sont réservés.
       </div>
     </div>
   );

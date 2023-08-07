@@ -316,7 +316,7 @@ section{
     }
     .Apropos-container{
       
-      height: 500px; 
+      height: 450px; 
       width: 100%;
       display: grid;
       grid-template-columns: initial;
@@ -361,7 +361,7 @@ section{
     }
     .Apropos-container{
       
-      height: 500px; 
+      height: 450px; 
       width: 100%;
       display: grid;
       grid-template-columns: initial;

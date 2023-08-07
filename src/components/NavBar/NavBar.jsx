@@ -66,7 +66,7 @@ function NavBar() {
             setCurrentPage("home");
           }}
         >
-          Home{" "}
+          Accueil{" "}
         </div>
         <div
           className={`nav nav-pres ${

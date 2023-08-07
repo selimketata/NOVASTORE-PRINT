@@ -16,13 +16,13 @@
     height: 400px;
 }
 .contact-container{
-    padding-bottom: 2vw;
-}
+    padding-bottom: 2vw;}
 
 .contact-container ul li{
     list-style: none;
     margin-top: 0.7em;
     font-size: 12px;
+
 }
 .contact a{ 
     /* display: inline-block; */
@@ -54,7 +54,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    align-items: center;
+    align-items: flex-start;
     
 }
 
@@ -96,7 +96,7 @@
     .contact-container ul li{
         list-style: none;
         margin-top: 0.7em;
-        font-size: 9px;
+        font-size: 8px;
     }
     .contact-container ul li:nth-child(2){
         font-weight: bold;
@@ -106,6 +106,10 @@
         padding: 0;
         width:120px;
     }
+    .address{
+        max-width: 90%;
+        margin-left: 5%;
+    }
   
     
 
@@ -114,7 +118,7 @@
     .contact-container ul li{
         list-style: none;
         margin-top: 0.7em;
-        font-size: 8px;
+        font-size: 7px;
     }
     .contact-container ul li:nth-child(2){
         font-weight: bold;
@@ -128,9 +132,6 @@
         margin-top: 1vw;
         width: 100%;
         display: flex;
-        justify-content: center;
-        text-align: start;
-        align-items: center;
         
     }
     .contact-container ul{
@@ -143,6 +144,10 @@
         align-items: center;
         
     }
-    
+    .address{
+        max-width: 80%;
+        margin-left: 0%;
+    }
+  
 
 }
