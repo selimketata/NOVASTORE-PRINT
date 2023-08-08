@@ -49,18 +49,18 @@ function Card3() {
           <CardContent sx={{ textAlign: "center" }}>
             <TextBox>
               <StyledText variant="h3">
+                
+                Revêtement { }
                 <StyledText variant="h3" sx={{ color: "#57C9EA" }}>
-                  R
+                De {" "}
                 </StyledText>
-                evêtement{" "}
-                <StyledText variant="h3" sx={{ color: "#57C9EA" }}>
-                  D
+                 Façade{" "}
+              </StyledText>
+              <StyledText variant="h3" sx={{ color: "#57C9EA" }}>
+                  & {" "}
                 </StyledText>
-                e{" "}
-                <StyledText variant="h3" sx={{ color: "#57C9EA" }}>
-                  F
-                </StyledText>
-                açade
+                <StyledText>
+                  Eseigne
               </StyledText>
               <br />
             </TextBox>

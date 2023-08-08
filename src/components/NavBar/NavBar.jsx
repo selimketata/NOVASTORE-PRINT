@@ -108,7 +108,7 @@ function NavBar() {
                 />
                 <HoverElement2
                   image_url={require("../../assets/Img1.jpg")}
-                  text="Revêtement De Façade"
+                  text="Revêtement De Façade & Enseigne"
                   dest="section3n"
                   onClick={() => handleSectionClick("section3n")}
                 />

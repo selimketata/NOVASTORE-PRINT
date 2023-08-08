@@ -12,14 +12,14 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer_container">
-      <div className="part1">
-        
-            <img src={logo} alt="logo"  className="logo-img"/>
-            <div className="para">
+        <div className="part1">
+
+          <img src={logo} alt="logo" className="logo-img" />
+          <div className="para">
             <span className="footer-span">You think it.</span>
             <span className="footer-span">We print it!</span>
-            </div>
-        
+          </div>
+
         </div>
 
 
@@ -67,7 +67,8 @@ function Footer() {
             </li>
             <li>
               <a className="footer-a" href="/services#section3">
-                REVETEMENT DE FAÇADE
+                REVETEMENT DE FAÇADE<br></br>
+                <span className="habillage">ENSEIGNE</span>
               </a>
             </li>
           </ul>
@@ -81,8 +82,9 @@ function Footer() {
           <div className="span">
             <span className="footer-span">+216 70 721 217</span>
 
-            <span className="footer-span">contact@novastoreprint.com</span>
-          </div>
+            <a href="mailto:contact@novastoreprint.com">
+              <span className="footer-span mail">contact@novastoreprint.com</span>
+            </a>          </div>
           <div className="social">
             <a className="footer-a" href="https://www.facebook.com/profile.php?id=100064168410054">
               <FaFacebookF size={"25px"} className="icones" />
@@ -90,19 +92,21 @@ function Footer() {
             <a className="footer-a" href="https://www.instagram.com/novastore_print/">
               <BsInstagram size={"25px"} className="icones" />
             </a>
-            <a className="footer-a" href="">
+            <a className="footer-a" href="https://www.facebook.com/messages/t/350742852509" target="_blank" rel="noopener noreferrer">
               <BsMessenger size={"25px"} className="icones" />
             </a>
+
+
           </div>
-          
+
         </div>
 
 
-        
-      </div>
-      
 
-        
+      </div>
+
+
+
       <div className="backToTop" style={{ cursor: "pointer" }} onClick={top}>
         <button>
           <SlArrowUp />

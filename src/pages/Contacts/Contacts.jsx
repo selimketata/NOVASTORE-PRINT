@@ -8,6 +8,10 @@ import MailIcon from "@mui/icons-material/MailOutlined";
 import AddLocationIcon from "@mui/icons-material/AddLocationOutlined";
 
 export function Contacts() {
+  const handleEmailClick = () => {
+    window.location.href = "mailto:contact@novastoreprint.com";
+  };
+
   return (
     <div className="contact">
       <div className="map">
@@ -33,7 +37,7 @@ export function Contacts() {
             <MailIcon sx={{ fontSize: "380%" }} />
           </li>
           <li>Email</li>
-          <li >contact@novastoreprint.com</li>
+          <li onClick={handleEmailClick}>contact@novastoreprint.com</li>
         </ul>
       </div>
       

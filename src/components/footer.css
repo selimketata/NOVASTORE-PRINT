@@ -23,7 +23,19 @@
 }
 
 
+.span a {
+    text-decoration: none;
+}
 
+.span a:hover {
+    text-decoration: underline;
+    color: #57C9EA;
+
+}
+.mail:hover {
+    color: #57C9EA;
+
+}
 
 
 .logo-img{

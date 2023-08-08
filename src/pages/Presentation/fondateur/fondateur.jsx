@@ -2,6 +2,13 @@ import React from "react";
 import "./fondateur.css";
 
 function Cadre(props) {
+  const image = {
+    background: `url(${props.image}) no-repeat`,
+    backgroundSize: "cover",
+    height: "auto",
+    width: "60vw",
+  };
+
   return (
     <div id="fondateur">
       <div id="cadre">
@@ -22,9 +29,10 @@ function Cadre(props) {
           </div>
         </div>
 
-        <div id="image"></div>
+        <div id="image"><img src={props.image}></img></div>
       </div>
     </div>
   );
 }
+
 export default Cadre;

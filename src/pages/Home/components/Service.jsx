@@ -52,7 +52,7 @@ function Service() {
            onClick={() => navigate("/services#section3")}
         >
           <img src={plv2} alt="FGHJK" />
-          <p>Revêtement de façade</p>
+          <p className="texttt">Revêtement de façade <br></br> & Enseigne</p>
         </div>
       </div>
     </div>

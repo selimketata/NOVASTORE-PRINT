@@ -43,7 +43,6 @@ function Chiffre({number,adding}){
             display:"contents"
           }
           })
-          console.log("visible")
         },3500)
     },[myElementIsVisible])
 

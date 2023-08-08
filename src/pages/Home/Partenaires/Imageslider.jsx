@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./Imageslider.css";
 import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
 import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
@@ -14,6 +14,8 @@ export const Imageslider = () => {
   const [currentList, setCurrentList] = useState([]);
   const isSmallScreen = useMediaQuery("(max-width:600px)");
   const Images = [img1, img3, img5, img4, img2];
+  const containerRef = React.createRef();
+
 
 
   const handleResize = () => {
@@ -55,6 +57,43 @@ export const Imageslider = () => {
     }
   };
 
+  let scrollThreshold = 0;
+
+  if (isSmallScreen) {
+    scrollThreshold = window.innerWidth * 4;
+  } else {
+    scrollThreshold = window.innerWidth ;
+  } 
+let scrollDistance = 0;
+
+const handleWheel = (e) => {
+  scrollDistance += Math.abs(e.deltaX);
+
+  if (scrollDistance >= scrollThreshold) {
+    if (e.deltaX > 0) {
+      setCurrentIndex((currentIndex + 1) % Images.length);
+    } else {
+      setCurrentIndex((currentIndex - 1 + Images.length) % Images.length);
+    }
+    
+    scrollDistance = 0;
+  }
+};
+
+useEffect(() => {
+  const containerElement = containerRef.current;
+  
+  const handleScrollReset = () => {
+    scrollDistance = 0;
+  };
+
+  containerElement.addEventListener("wheel", handleScrollReset);
+
+  return () => {
+    containerElement.removeEventListener("wheel", handleScrollReset);
+  };
+}, [scrollThreshold]);
+
 
 
   return (
@@ -63,7 +102,7 @@ export const Imageslider = () => {
         {" "}
         <ArrowBackRoundedIcon sx={{ fontSize: isSmallScreen ? 33 : 50 }} />
       </button>
-      <div className="image-slider-container">
+      <div className="image-slider-container" onWheel={handleWheel}  ref={containerRef}>
         {currentList.map((image, index) => (
           <div
             key={index}
